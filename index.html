@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>DD 793: USS CASSIN YOUNG</title>
+<link rel="manifest" href="manifest.json">
+
+<link rel="stylesheet" href="jquery.mobile.icons.min.css" />
+<link rel="stylesheet" href="jquery.mobile.structure-1.4.5.min.css" />
+<link rel="stylesheet" href="npmap.min.css" />
+<link rel="stylesheet" href="USS-Cassin-Young.css" />
+
+<meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1.0, user-scalable=no">
+<meta name="apple-mobile-web-app-capable" content="yes">
+<meta name="mobile-web-app-capable" content="yes">
+
+<link rel="apple-touch-icon" sizes="76x76" href="icons/iOS-76.png">
+<link rel="apple-touch-icon" sizes="120x120" href="icons/iOS-iPhone6-120.png">
+<link rel="apple-touch-icon" sizes="152x152" href="icons/iOS-iPad-152.png">
+<link rel="apple-touch-icon" sizes="167x167" href="icons/iOS-iPadPro-167.png">
+<link rel="apple-touch-icon" sizes="180x180" href="icons/iOS-iPhone6p-180.png">
+
+<script type="text/javascript" src="jquery-1.10.2.min.js"></script>
+<script type="text/javascript" src="data.json"></script>
+<script type="text/javascript" src="jquery.mobile-1.4.5.min.js"></script>
+<script type="text/javascript" src="npmap.min.js"></script>
+<script type="text/javascript" src="index.js"></script>
+</head>
+<body onload='$("#loadingScreen").fadeOut("slow",function() {$("#appLoaded").fadeIn("slow");});'>
+
+<div data-role="page" id="loaderScreen">
+<img style='display:none;' src='images/Cover_Image.jpg'>
+<!--<audio id="PipeTheSide" style="display:none;" preload="auto"><source src="audio/PipingTheSide.mp3" type="audio/mpeg"></audio>-->
+<div id="loadernavbar"><img  style="height:3.5em; float:left;padding-right:2em;" src="images/ah.png" id="a-head"><span style="font-size:1em;padding-top:.5em;display:inline-block;float:left">DD 793: USS <i>Cassin Young</i><br><span style="font-size:.75em;float:left;">Charlestown Navy Yard</span></span></div>
+
+<div class="splashScreen">
+<div class="loaderContent" id="loadingScreen"><img style="max-width:200px;max-height:200px;height:25%;width:25%;" src="images/radarLoader.gif"><div style='background-color:rgba(255,255,255,.5);' id="loaderStatus"></div></div>
+<div class="loaderContent" style="background-color: rgba(255,255,255,.5);display:none;" id="appLoaded"><a href="#mainMenu"><h1>Click to Begin...</h1></a></div>
+</div>
+</div>
+
+<div id="shipPanel" class="slideIn">
+<div id="MobileNavbar" class="navbar">
+	<span id="MobileTitle"></span>
+	<span style="float:right;width:50%;text-align:right;">
+	<span id="MobileMenuBtn" style="display:none;" onclick="window.history.back()" class="MobileNavBtn"><img style="height:2em;width:2em;" src="images/icons-svg/back-white.svg"><div class="MobileNavBtnText">Menu</div></span>
+	<span id="MobileMapBtn" onclick="animateMap('#shipPanel')" class="MobileNavBtn"><img style="height:2em;width:2em;" src="images/icons-svg/navigation-white.svg"><div class="MobileNavBtnText">Map</div></span>
+	<a id="MobilePrevBtn" class="MobileNavBtn" style="display:none;"><img style="height:2em;width:2em;" src="images/icons-svg/carat-l-white.svg"><div class="MobileNavBtnText">Prev</div></a>
+	<a id="MobileNextBtn" class="MobileNavBtn" style="display:none;"><img style="height:2em;width:2em;" src="images/icons-svg/carat-r-white.svg"><div class="MobileNavBtnText">Next</div></a>
+	<a id="MobileStartBtn" class="MobileNavBtn" style="display:none;"><img style="height:2em;width:2em;" src="images/icons-svg/carat-r-white.svg"><div class="MobileNavBtnText">Start</div></a>
+	<a id="MobileResumeBtn" class="MobileNavBtn" style="display:none;"><img style="height:2em;width:2em;" class="flipHoriz" src="images/icons-svg/back-white.svg"><div class="MobileNavBtnText">Resume</div></a>
+	</span>
+	</div>
+<div onclick="animateMap('#shipPanel')" style="" class="mapButton"><span style="position:relative;top:-.25em">Ship Map</span><img style="padding-left:.25em;height:1em;width:1em;" src="images/icons-svg/navigation-white.svg"></div>
+			<div id="map"></div>
+		</div>
+<div style="display:none;" id="imageCache"></div>
+<script>
+
+$("#MobileNextBtn").on("click", function(event){
+	event.preventDefault();
+	$("body").pagecontainer("change",event.currentTarget.href,{changeHash:false});
+	window.history.replaceState({},'',event.currentTarget.href)
+});
+
+$("#MobilePrevBtn").on("click", function(event){
+	event.preventDefault();
+	$("body").pagecontainer("change",event.currentTarget.href,{changeHash:false});
+	window.history.replaceState({},'',event.currentTarget.href)
+});
+
+
+
+</script>
+</body>
+</html>

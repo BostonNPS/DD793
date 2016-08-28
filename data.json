@@ -1,0 +1,1163 @@
+var data={
+	title:"DD793: USS <i>Cassin Young</i>",
+	subtitle:"Charlestown Navy Yard",
+	tagLine:"Ship of Steel, Spirits of Iron:<br>The stories of USS <i>Cassin Young</i> and the Charlestown Navy Yard.",
+	menuImage:"images/Cover_header.jpg",
+	introText:"<p> Welcome aboard! Whether you are standing on the main deck of USS <i>Cassin Young</i> or are exploring the ship on a device from afar, you are about to see and hear the stories of men and women who built, repaired, served, and even sacrificed their lives on the steel decks of this storied ship.</p><p>This app shares these stories through oral histories that were recorded by park staff beginning in 1979. Accompanied by both private and public photographic collections of the ship, the stories are organized under different threads listed below. Feel free to explore and chose a thread and stop as you wish. You may follow in progression, or simply pick and choose from the map inside each thread where to go.</p><p>Because this is a largely unmodified vessel from World War II, self-guided tours with this app are limited to the main deck of the ship. Please be careful as you move about the ship and watch your step. If available, ranger-led tours of the ship offer access to many living and work spaces above and below the main deck.</p><p>We hope you enjoy your experience at the Charlestown Navy Yard aboard USS <i>Cassin Young</i>!</p>",
+	threads : [{
+			id : "CNY",
+			introText : "<p>Before there can be Navy warships, there must be naval shipyards. It is here where armies of workers built and prepared them. During World War II, as many as 50,000 men and women worked at the Charlestown Navy Yard to contribute naval vessels in response to a global crisis.</p><p>On this thread, hear the voices and follow in the footsteps of the men and women who made such warships a reality.</p>",
+			threadColor:"75B4D3",
+			title : "Constructing a Navy at War",
+			subtitle : "The Charlestown Navy Yard, 1941-1945",
+			path : [],
+			menuImage : "images/menuItems/building_fleet.jpg",
+			stops : [
+			{
+					id : "gate_1",
+					introText : "Following the Japanese attack at Pearl Harbor, Hawaii, on December 7, 1941, the United States officially entered the Second World War. The entire nation rapidly mobilized to fight. However, long before servicemen could be stationed aboard a warship such as USS <i>Cassin Young</i>, an army of draftsmen, engineers, ship fitters, welders, craftsmen, electricians, and painters&mdash;to name just a few of the job descriptions&mdash;were all required to build a single ship.</p><p>Here in the Charlestown Navy Yard, employment peaked at over 50,000 men and women to fulfill such a mission. Entering the gates of the Yard, they brought skill, determination, and ingenuity. By the time World War II came to a close, the workers who came to this Navy Yard had accomplished an astounding feat. In just a matter of a few years, the yard workers designed, built, outfitted, and repaired over 36 Destroyers (DDs), 62 Destroyer Escorts (DEs), and and 44 Tank Landing Ships (LSTs).</p>",
+					title : "Coming to the Yard",
+					subtitle : "1st Avenue &amp; Gate 1",
+					menuImage : "images/menuItems/gate1_Building.jpg",
+					marker : {lat: 42.37276470404657, lng: -71.0578054189682},
+					images : [
+						{
+							src:"images/slideshows/building/gate_1/BOSTS_8945-1693-Gate1_Marines.jpg",
+							caption:"Marines guarding Gate 1 (built in 1903) in 1958.",
+							altText:""
+						},
+						{
+							src:"images/slideshows/building/gate_1/BOSTS_8614-450_1943Aerial.jpg",
+							caption:"Aerial view of the Charlestown Navy Yard in 1943.",
+							altText:""
+						},
+						{
+							src:"images/slideshows/building/gate_1/BOSTS_7412_Easter-party.jpg",
+							caption:"Structual Shop Easter Party, World War II-Era.",
+							altText:""
+						},
+						{
+							src:"images/slideshows/building/gate_1/BOSTS_7774_safety1950.jpg",
+							caption:"Navy Yard safety awards assembly, 1950.",
+							altText:""
+						},
+						{
+							src:"images/slideshows/building/gate_1/BPL-Gate1.jpg",
+							caption:"&quot;Entrance to Charlestown Navy Yard,&quot; 1929, by Leslie Jones",
+							altText:""
+						}
+					],
+					audio : [
+						{
+							id:"Parker_BUILD_ComingtoYard",
+							src:"audio/building/Virginia_Wilder_Parker_BUILD_coming-to-yard.mp3",
+							title:"Virginia Wilder Parker, Welder, World War II",
+							transcript:"<span class=transcription data-start=.36 data-end=3> Interviewer: How did you end up here in the Yard?</span><span class=transcription data-start=3.3 data-end=7.3> Wilder: Well it started with a newspaper picture of a welder</span><span class=transcription data-start=7.5 data-end=11.5> They wanted welders at the Raytheon plant in, at, Waltham Mass. </span><span class=transcription data-start=12 data-end=17.6> and so I thought that would be a good thing for me to do. I thought, really get to a man&apos;s work.</span><span class=transcription data-start=18.2 data-end=21.9> So I went to Raytheon and got hired, I was made assistant supervisor </span><span class=transcription data-start=22.6 data-end=26.5> and I was doing spot welding, which I could have done in an evening gown.</span><span class=transcription data-start=27.4 data-end=34.5> [chuckles] Well anyhow, I wanted to, use the dungarees and the Dickies I had bought to be a real welder</span><span class=transcription data-start=35.1 data-end=38.6> So I went to the Charlestown Navy Yard and got hired </span><span class=transcription data-start=39.2 data-end=44.3> and went to South Boston Navy Yard and went to welding school there</span><span class=transcription data-start=44.5 data-end=50.5> and the I was sent back to Charlestown. I enjoyed, getting into the Yard. </span>"
+						},
+					],
+					people : []
+				},
+				{
+					id : "planning_etc",
+					introText : "<p>Standing in the middle of the Charlestown Navy Yard, the echoes of an immense industrial complex surround you. The deep granite dry docks, the tall steel portal cranes, the solid masonry workshops, and the long paved piers all form a maritime landscape that operated for 174 years. Nevertheless, some the most visible and enduring markers of the Charlestown Navy Yard&apos;s accomplishments date from the mid-twentieth century, during the most defining events of the century: The Second World War (1941-1945), and the Cold War (approximately 1949-1991)</p><p>During World War II, the yard operated 24 hours a day, seven days a week. Three shifts rotated constantly, day and night, rain, snow, or sunshine. Machine shops and forges stamped and pounded all the materiel that future and existing warships required. Though welders and riveters became the iconic image of the wartime yard worker, it was the planning, machining, and forging in the background that kept those welders and riveters going.</p>",
+					title : "Planning, Machining, and Forging.",
+					subtitle : "Flag Pole, Base of Pier 1",
+					menuImage : "images/menuItems/machining_BUILDING.jpg",
+					marker : {lat: 42.37378321303672, lng: -71.05623146519065},
+					images : [
+						{
+							src:"images/slideshows/building/planning_etc/BOSTS_14958-6_WomanMachinist.jpg",
+							caption:"Woman in Machine Shop cutting steel plates, undated.",
+							altText:""
+						},
+						{
+							src:"images/slideshows/building/planning_etc/BOSTS_9669-3_WomenDieLock.jpg",
+							caption:"Women in Forge Shop, ca. 1944.",
+							altText:""
+						},
+						{
+							src:"images/slideshows/building/planning_etc/BOSTS_14782-2PortalCraneDelivery.jpg",
+							caption:"Repositioning of Portal Crane 63, undated.",
+							altText:""
+						},
+						{
+							src:"images/slideshows/building/planning_etc/BOSTS_15693-165_SnowLoader1stAveandBaxter.jpg",
+							caption:"Snow removal on Baxter Avenue, behind today&apos;s USS Constitution Museum, ca. 1940.",
+							altText:""
+						},
+					],
+					audio : [],
+					people : []
+				},
+				{
+					id : "home_front",
+					introText : "<p>As new ships rapidly took shape on the shipways and in dry docks at the Navy Yard, existing warships needed to be repaired and maintained for the continued war campaigns. Though many ships arrived for routine maintenance at Dry Dock 1, others limped back to the Yard following horrific events at sea. the war became very real when destroyers came to the Charlestown Navy Yard for repairs following shocking damage incurred by accidents or by German torpedoes</p><p>Though much of the fighting took place thousands of miles away, the war hit home daily at the Navy Yard. Everyone who worked knew a family member, friend, or neighbor who was serving in the war effort. Every ship they launched, every ship the put back together, brought the war closer to an end, and that husband, son, brother, neighbor, or friend one step closer to home.</p>",
+					title : "The Home Front Meets the War Front",
+					subtitle : "Dry Dock 1",
+					menuImage : "images/menuItems/homeandwarfront_BUILDING.jpg",
+					marker : {lat: 42.373626889575085, lng: -71.05597238056362},
+					images : [
+						{
+							src:"images/slideshows/building/home_and_war_fronts/BOSTS_10578-1_USSBuck.jpg",
+							caption:"USS <i>Buck</i> in Dry Dock 1 in 1942 following a deadly collision off Nova Scotia.",
+							altText:""
+						},
+						{
+							src:"images/slideshows/building/home_and_war_fronts/BOSTS_10578-2_USSBuck.jpg",
+							caption:"The new Fantail section of USS <i>Buck</i> constructed and attached by the Navy Yard workers.",
+							altText:""
+						},
+						{
+							src:"images/slideshows/building/home_and_war_fronts/BOSTS_11621-146_Kearney.jpg",
+							caption:"USS <i>Kearney</i> undergoing repairs after a serious U-boat torpedo hit to her forward fire room.",
+							altText:""
+						},
+						{
+							src:"images/slideshows/building/home_and_war_fronts/BOSTS_11621-259_Kearney.jpg",
+							caption:"Struck on 17 October, 1941, <i>Kearney</i> was attacked by a German U-boat before the United States formally entered the war.",
+							altText:""
+						},
+						{
+							src:"images/slideshows/building/home_and_war_fronts/BOSTS_11621-327_Kearney.jpg",
+							caption:"Navy Yard workers rebuild the hull and forward fire room to return <i>Kearney</i> to active service.",
+							altText:""
+						},
+						{
+							src:"images/slideshows/building/home_and_war_fronts/NARA-FirstNavalDist-USSNelson.jpg",
+							caption:"USS <i>Nelson</i> at Charlestown Navy Yard with her stern missing following a German torpedo hit off the coast of France on 13 June 1944.",
+							altText:""
+						},
+					],
+					audio : [],
+					people : []
+				},
+				{
+					id : "53_handling",
+					introText : "<p>The first step of building a ship required welders to form the ship&apos;s skeleton and skin: The keel, frames (or, ribs), and the hull. Yet this was just half the work. Inside the ship, compartments both big and small had to be formed with steel plates. Propulsion systems and machinery had to be installed; put in place by the high portal cranes ashore and mounted solidly to the ship&apos;s structure. Cables, pipes, and ducts had to be run everywhere to specifications stated on blueprints.</p><p>Deep down inside these ships, adverse conditions pushed the limits of endurance and even health of the workers. The weather ranged from bitter cold in winter to blazing hot in summer. Furthermore, the welding and painting processes created terrible fumes. Today, many materials handled inside these ships&mdash;including asbestos&mdash;have since been banned because they are now known to cause cancer.</p>",
+					title : "Building the Ship, Inside &amp; Out.",
+					subtitle : "#53 Handling Room, USS <i>Cassin Young</i>",
+					menuImage : "images/menuItems/buildingShip_BUILDING.jpg",
+					marker : {lat: 42.37196040589552, lng: -71.05417639017105},
+					images : [
+						{
+							src:"images/slideshows/building/building_ship/BOSTS_14958-5_WomenWeldingDE-279.jpg",
+							caption:"Women welding the hull plates of DE-279, later HMS <i>Kempthorne</i>, in 1943.",
+							altText:""
+						},
+						{
+							src:"images/slideshows/building/building_ship/BOSTS_11033-4429-DEsonShipways1943.jpg",
+							caption:"USS <i>Edward H. Allen</i> DE-531 and USS <i>Tweedy</i> DE-532 on the shipways in the Navy Yard, 1943.",
+							altText:""
+						},
+						{
+							src:"images/slideshows/building/building_ship/BOSTS_15804-1_GuyGiraffaElectical.jpg",
+							caption:"Undated photograph of electrician Guy Giraffa wiring a ship&apos;s interior.",
+							altText:""
+						},
+						{
+							src:"images/slideshows/building/building_ship/BOSTS_7755_Welder.jpg",
+							caption:"Undated photograph of welder in Dry Dock 5.",
+							altText:""
+						},
+					],
+					audio : [
+						{
+							id:"Parker_BUILD_WorkDD",
+							src:"audio/building/Virginia_Wilder_Parker_BUILD_work-in-dd.mp3",
+							title:"Virginia Wilder Parker, Welder, World War II",
+							transcript:"<span class=transcription data-start=.6 data-end=6> When I first came to the yard they said women would never work below decks...uh-huh, we did.</span><span class=transcription data-start=6.9 data-end=9.6> Down in the bilges, topside, everywheres. </span><span class=transcription data-start=10 data-end=15.8> We welded in gun turrets...lot of it was rough like I just mentioned about the...the um...</span><span class=transcription data-start=16.4 data-end=19.8> Oh that thing in the ground. Isn&apos;t that awful? Um...the dry dock!</span><span class=transcription data-start=20.4 data-end=26.2> Um...we used to go down there...ice, icy days, everything, it was quite dangerous.</span><span class=transcription data-start=26.8 data-end=34> And uh, sitting on cold steel, wasn&apos;t the best either but we all had pads that we made</span><span class=transcription data-start=34.5 data-end=36.1> and we printed our name on it.</span><span class=transcription data-start=36.6 data-end=43.4> and sometimes uh, it would be so hot that you couldn&apos;t put your hand down on the steel, </span><span class=transcription data-start=44.7 data-end=47.5> you&apos;d get burned, and then we&apos;d hear about the people</span><span class=transcription data-start=47.9 data-end=52.9> in offices in Boston being sent home because of the heat, and we&apos;re out there under the hot sun. </span><span class=transcription data-start=53.8 data-end=54.7> Things like that. </span><span class=transcription data-start=55.6 data-end=61.4> And...of course there never had been that we knew of a second class woman welder. </span><span class=transcription data-start=62.2 data-end=67.5> So one day I was welding, I was working inside, a structural shop, and um, </span><span class=transcription data-start=68.2 data-end=71.8> I was on the deck, welding and...I got a tap on my shoulder</span><span class=transcription data-start=72. data-end=77.4> Put my shield up, and a man said he wanted to be the first to congratulate me, and I said for what? </span><span class=transcription data-start=78.3 data-end=80.1> He said you just made second class. </span><span class=transcription data-start=81 data-end=86.6> I understand there was seven women made it, four in charlestown and three in South Boston. </span><span class=transcription data-start=87.5 data-end=90.5> It was, uh, it was quite an experience.</span>"
+						},],
+					people : []
+				},
+				{
+					id : "launching",
+					introText : "<p>Christening and launching of naval warships were celebratory occasions at the Navy Yards. What was once nothing but a keel now looked like a ship. As a sponsor cracked a traditional bottle of champagne across the bow, crowds watched as the hull rolled down the shipways and thundered into the water. It was an exciting occasion that many took pause to enjoy. But the event symbolized only half the work&apos;s completion.</p><p>The hull would transform into a warship during the final weeks prior to commissioning. From big items such as top-secret radar equipment and the ship&apos;s guns, down to every fuse and fork, everything had to be installed and stocked. Ships received a final camouflage paint job, and inspections and tests attempted to root out every possible error or defect in construction.  As each day passed, crewmen began to come aboard and familiarize themeselves with their new berth and duty stations. When this occurred, the women ship workers were transferred off the project and on to another hull.</p>",
+					title : "Launching &amp; Equipping",
+					subtitle : "Bow, USS <i>Cassin Young</i>",
+					menuImage : "images/menuItems/building_launching.jpg",
+					marker : {lat: 42.372481558337824, lng: -71.05478256940842},
+					images : [
+
+						{
+							src:"images/slideshows/building/launching/NARA_NAVAER_267708and202295.jpg",
+							caption:"Mrs. Eleanor Young, sponsor of USS <i>Cassin Young</i> launching in San Pedro, California on 12 September 1943. National Archives",
+							altText:""
+						},
+						{
+							src:"images/slideshows/building/launching/BOSTS_13791-137_PaintingUSSNormanScott.jpg",
+							caption:"Painters completing the &quot;Razzle Dazzle&quot; camouflage of USS <i>Norman Scott</i>.",
+							altText:""
+						},
+						{
+							src:"images/slideshows/building/launching/BOSTS_11048-1239_ForrestAndFitchLaunch1941.jpg",
+							caption:"Launching of the Forrest and Fitch, Charlestown Navy Yard, 1941",
+							altText:""
+						},	
+						{
+							src:"images/slideshows/building/launching/BOSTS_15404_LST994-995LaunchingProgram.jpg",
+							caption:"Launching ceremony program for LST (Landing Ship, Tank) 994 and 995",
+							altText:""
+						},
+					
+					],
+					audio : [
+					{
+						id:"Green-Launching",
+						src:"audio/building/Launching/Barbara_Tuttle_Green-Launching_Ships.mp3",
+						title:"Launching Ceremony - Barbara Tuttle Green, Welder and Sheet Metal Worker, 1943-1945",
+						transcript:"<span class=transcription data-start=.5 data-end=2.7>Interviewer: Did you ever go to a launching ceremony?</span><span class=transcription data-start=2.8 data-end=4.5>Green: Yes I did. [Laughing] Yes.</span><span class=transcription data-start=4.6 data-end=5.4>Interviewer: Can you tell me about it?</span><span class=transcription data-start=5.5 data-end=8.3>Green: I was out during the lunch hour one day. </span><span class=transcription data-start=8.7 data-end=15.5>And we watched a ship, ya know. We had this lady who was one of the officers wives I guess.</span><span class=transcription data-start=16.5 data-end=21.8>Break the bottle of champagne over the hull over the ship, and I guess she had to have a little bit of help. [Laughing]</span><span class=transcription data-start=22.4 data-end=26.2>And you just watch roll down off the ways. Ya know.</span><span class=transcription data-start=26.6 data-end=32.5>And to see it hit the water, and you just swear it was going to tip over because it would just rock back and forth when it first hit the water</span><span class=transcription data-start=32.6 data-end=36.5>And I thought golly they&apos;re gonna sink this one for sure. [Laughing]</span><span class=transcription data-start=36.9 data-end=41.6>But, it stood up [Laughing] finally. </span><span class=transcription data-start=42.3 data-end=44.5>It was quite interesting I enjoyed watching it. </span><span class=transcription data-start=44.6 data-end=45.7>Interviewer: Yeah it must have been exciting.</span><span class=transcription data-start=45.8 data-end=46.8>Green: It was, yeah.</span><span class=transcription data-start=46.9 data-end=50.8>Interviewer: Did the whole shipyard turn out for a launching if they could?</span><span class=transcription data-start=50.9 data-end=53.2>Green:Well as many as could I suppose were over there, yeah.</span>",
+					},
+					{
+						id:"Spangler_Building_BeforeCommissioning",
+						src:"audio/building/Launching/William_Spangler_BUILDING_BeforeComissioningWork.mp3",
+						title:"Preparing the Ship - William &quot;Bill&quot; Spangler, Storekeeper 2nd Class, 1943-1944",
+						transcript:"<span class=transcription data-start=1.6 data-end=6.4>Spangler: I came aboard the Cassin Young about December 8, 1943. </span><span class=transcription data-start=6.5 data-end=9.7>I reported for duty before the ship was commissioned. </span><span class=transcription data-start=10.1 data-end=12.5>I was a storekeeper 2nd Class. </span><span class=transcription data-start=12.6 data-end=18.8>And I joined Patty Meril at Terminal Island at San Pedro and we were stationed there. </span><span class=transcription data-start=18.9 data-end=27.2>We, well he did, Patty had all the work done. Got everything together and had the ship ready to sail on the 31st of December. </span><span class=transcription data-start=27.3 data-end=29.8>That&apos;s everything down to the last spoon, knife, and fork. </span><span class=transcription data-start=29.9 data-end=31.3>Interviewer: How old were you?</span><span class=transcription data-start=31.4 data-end=34.4>Spangler: I was one of the old ones. I was 21</span><span class=transcription data-start=34.5 data-end=38.3>I had my 21st birthday on the train coming through Nebraska.</span><span class=transcription data-start=38.4 end42.8=>Interviewer: What were you doing before the ship was commissioned? Were there cruises or...</span><span class=transcription data-start=42.9 data-end=46.4>Spangler: Now before it was commissioned we were working out in office in Terminal Island. </span><span class=transcription data-start=46.5 data-end=51.8>Checking the books, making sure we had all the right equipment, and all the necessary equipment to go aboard.  </span><span class=transcription data-start=51.9 data-end=56.6>One of my of my jobs was to take the equipment books, they were looseleaf notebooks. </span><span class=transcription data-start=56.7 data-end=1.01.2>And every month they had changes to be made in them as to what was available. </span><span class=transcription data-start=61.3 data-end=65.5>And I had 36 months of changes to catch up so we would have an accurate set of books.</span>",
+					},
+					
+					],
+					people : []
+				},
+				{
+					id : "passing_torch",
+					introText : "<p>After a successful &quot;shakedown&quot; cruise and acceptance of the ship by the Navy, the ship would be commissioned into service with great fanfare. She was now an active warship of the United States Navy. Following commissioning, ships and their crews sailed off to an unknown and dangerous future. Many ships saw terrible action. Some never returned. USS <i>Cassin Young</i> would not be an exception, nor would the ships built by the Charlestown Navy Yard.</p><p>Victory in Europe and in Japan finally marked the end of the Second World War in 1945. With the Allies victorious, the entire nation celebrated an effort which required years of hard work and sacrifice&mdash;both in terms of time, energy, and dedication, as well as in terms of lost loved ones overseas.</p><hr><p>Following this thread, you may want to explore life aboard the <i>Cassin Young</i>, or the daily operations undertaken by the crew.</p>",
+					title : "Passing the Torch",
+					subtitle : "Wardroom, USS <i>Cassin Young</i>",
+					menuImage : "images/menuItems/commissioning_BUILDING.jpg",
+					marker : {lat: 42.37234879367745, lng: -71.05462163686752},
+					images : [
+						{
+							src:"images/slideshows/building/passing_torch/NARA_NAVAER_381582.jpg",
+							caption:"<i>Cassin Young</i> in full fighting trim off San Pedro and ready for her first cruise. National Archives",
+							altText:""
+						},
+						{
+							src:"images/slideshows/building/passing_torch/NARA_NAVAER_CY-Comissioning.jpg",
+							caption:"Commissioning ceremony for <i>Cassin Young</i>, San Pedro, California, 31 December 1943. National Archives",
+							altText:""
+						},
+						{
+							src:"images/slideshows/building/passing_torch/BOSTS_11038-1_SternandEisnerTransfer_Pier1SignalGuns.jpg",
+							caption:"Signal Guns on Pier 1 fire during a ship ceremony at the Charlestown Navy Yard.",
+							altText:""
+						},
+						{
+							src:"images/slideshows/building/passing_torch/BOSTS_11038-2_SternandEisnerTransfer_Pier1DD1.jpg",
+							caption:"A ship transfer ceremony at the Charlestown Navy Yard.",
+							altText:""
+						},
+
+					
+					],
+					audio : [
+
+					{
+						id:"Byrum-PipingSides",
+						src:"audio/building/Commissioning/Peter_Byrum_Build_PipingSides.mp3",
+						title:"Piping the Sides - Peter Byrum, Boatswain&apos;s Mate, 1943-1945",
+						transcript:"<span class=transcription data-start=2.6 data-end=6.1>Interviewer: Pete let&apos;s start with you when did you serve on board Cassin Young when did you start? </span><span class=transcription data-start=6.4 data-end=8.96>Byrum: Prior to commissioning of the Cassin Young </span><span class=transcription data-start=9.2 data-end=13.56>I was a member of the Cassin Young detail at San Pedro.<span class=transcription data-start=14 data-end=17.83>As a Boatswain&apos;s mate I was in charge of working parties </span><span class=transcription data-start=18 data-end=22.2>Loading ammunition, provisions, and various items on board </span><span class=transcription data-start=22.2 data-end=26.5>That would serve as a homing and fighting ship for over 300 hundred officers and men </span><span class=transcription data-start=26.8  data-end=28.63>At commissioning ceremonies </span><span class=transcription data-start=28.63  data-end=34.5>I felt honored as the Boatswain&apos;s mate to render side honors at piping and sides</span><span class=transcription data-start=35.3 data-end=37.7>Interviewer: Would you play at the commissioning? </span><span class=transcription data-start=38.2  data-end=41.4>Byrum: Well what you do you pipe the Captain aboard. </span><span class=transcription data-start=41.8  data-end=50.1>And when the boat starts coming up to the gangway. It&apos;s a gangway if you are anchored out at sea or at the bay. </span><span class=transcription data-start=50.2 data-end=58.1>Or if he pulls up in a car of something at a dock. Why you give a [Whistles]. </span><span class=transcription data-start=58.2 data-end=1:00.3>And everybody comes to attention. </span><span class=transcription data-start=61.1 data-end=71.6>And then if he&apos;s coming up the gangway. Then you start your call. [Whistles] </span><span class=transcription data-start=71.9 data-end=79.6>And then he comes portside and you have your 8 sideboys lined up at the Quarter Deck. they come to a right hand salute...</span>",
+					},
+					{
+						id:"Green-NoWomenonCommissionedShips",
+						src:"audio/building/Commissioning/Barbara_Tuttle_Green-No_women_on_commissioned_ships.mp3",
+						title:"No Women on Commissioned Ships - Barbara Tuttle Green, Welder and Sheet Metal Worker, 1943-1945",
+						transcript:"<span class=transcription data-start=0.7 data-end=6.7>Green: Once a ship was commissioned in the military went aboard women weren't allowed to work on them any longer. </span><span class=transcription data-start=6.8 data-end=9.5>Interviewer: Oh is that right, I didn&apos;t realize that. </span><span class=transcription data-start=9.6 data-end=11.7> Green: Oh yeah, no women were allowed on commissioned ships. </span><span class=transcription data-start=11.8 data-end=16.1> Interviewer:  Oh you mean that if a ship came back for repair only a man...</span><span class=transcription data-start=16.2 data-end=18.2>Green: Only the men could work on them yeah.</span><span class=transcription data-start=18.3 data-end=20.5>Interviewer: Oh do you know why that was? </span><span class=transcription data-start=20.8 data-end=24.1>Green: I suppose the just didn&apos;t trust the men and women together [laughs] </span><span class=transcription data-start=24.2 data-end=30.4>Especially when some of those fellas have been out at sea for so long and some of these girls&apos; husbands&apos; were gone so long [laughs] </span><span class=transcription data-start=30.5 data-end=35.4>They just figured it was better to keep [laughs] separated as much as possible. </span><span class=transcription data-start=35.5 data-end=37.7>Interviewer: Oh that&apos;s interesting. </span>",
+					},
+					],
+					people : []
+				}
+			]
+		},
+		{
+			id : "life",
+			introText : "<p>Once a civilian work force completed the enormous undertaking of constructing and outfitting a warship, that ship is finally commissioned into the United States Navy. Once a ship is commissioned, she could be ordered anywhere across the globe. During both war and peace, the ship&apos;s crew must not only serve the ship, the fleet, and the nation, but they must also make it their &quot;Home away from home.&quot;</p><p>In this thread, view aspects of the ship with an eye to every day life.</p>",
+			threadColor : "5AA989",
+			title : "Life Aboard USS <i>Cassin Young</i>",
+			subtitle : "1944-1945; 1951-1960",
+			path : [],
+			menuImage : "images/menuItems/life_aboard.jpg",
+			stops : [
+				{
+					id : "bow",
+					introText : "<p>Upon leaving an American port, the crew of a ship left behind the comforts of private home life. While aircraft carriers were considered floating cities with many amenities and comforts, destroyers were more like small frontier towns. During World War II, as many as 325 officers and men called <i>Cassin Young</i> their home for as long as 18 months. By the 1950s that number dropped to as low as 250 officers and men. Nonetheless, extended cruises to far-flung places meant the crew had to eat, sleep, work, and weather calm seas or rough storms on a ship just 376 feet long. Smaller, faster, and much lighter than other seagoing warships, destroyers had ride their way through the rough seas. With limited resources, the crew had to overcome challenges as a team and make do with what they had.</p><p>Because of the thin armor of their ships, the rugged conditions, and the reputation of a &quot;can-do&quot; attitude, destroyer men took pride in their nickname: &quot;Tin can sailors.&quot;</p>",
+					title : "The Life of a &quot;Tin Can Sailor&quot;",
+					subtitle : "Bow of the Ship",
+					menuImage : "images/menuItems/AtSea_LIFE.jpg",
+					marker : {lat: 42.372487503017545, lng: -71.05480293743312},
+					images : [
+						{
+							src:"images/slideshows/lifeAboard/bow/BOSTC_Box1125-C1630-C91_WWII_Bow.jpg",
+							caption:"Bow of the <i>Cassin Young</i> during World War II. Ca. 1944-45",
+							altText:""
+						},
+						{
+							src:"images/slideshows/lifeAboard/bow/Jack_Surre-PICT0022.jpg",
+							caption:"Cruising on the Bow. Courtesy of crew member Jack Surre, 1957-1959, Machinist Mate 3rd Class.",
+							altText:""
+						},
+						{
+							src:"images/slideshows/lifeAboard/bow/Jack_Surre-PICT0095.jpg",
+							caption:"Bow of ship breaking through the rough seas. Courtesy of crew member Jack Surre, 1957-1959, Machinist Mate 3rd Class.",
+							altText:""
+						},
+						{
+							src:"images/slideshows/lifeAboard/bow/Jack_Surre-PICT0095.jpg",
+							caption:"<i>Cassin Young</i> in rough seas, undated.",
+							altText:""
+						}						
+					],
+					audio : [
+						{
+							id:"Haggerty_LIFE_Bow",
+							src:"audio/lifeAboard/Tin_Can_Bow/Heath_Haggerty_LIFE_destroyerFeeling.mp3",
+							title:"Living on a Destroyer - Heath Haggerty, Gunner&apos;s Mate, 1944-1945",
+							transcript:"<span class='transcription' data-start=0 data-end=4>Haggerty: One thing I liked about being on a destroyer was, they were small.</span><span class='transcription' data-start=4.5 data-end=8>Oh, I don&apos;t think I would have like the Navy as much if I had been on a bigger ship, you know.</span><span class='transcription' data-start=8 data-end=10.25>  It might have been an easier life, but,</span><span class='transcription' data-start=10.25 data-end=15> take a battleship for instance. We use to go alongside and fuel or  pass mail or whatever.</span><span class='transcription' data-start=15 data-end=18>And those battleships looked like a city. It was too disciplined.  </span><span class='transcription' data-start=18 data-end=21.5>You&apos;d look at these other, bigger ships just waddling along you know,</span><span class='transcription' data-start=21.5 data-end=26>and you&apos;d&mdash;We&apos;d knife down through them&mdash;boy that was a good feeling.</span><span class='transcription' data-start=26.5 data-end=32>And then about the time you were, you know, in a heavy sea why you [chuckles] they weren&apos;t that great, but,</span> <span class='transcription' data-start=32 data-end=37>you felt like you were really living, you know, and you look at those poor guys on those troop ships and battleships and,</span><span class='transcription' data-start=37 data-end=39.5>you thought, man, this is&mdash;this is great, you know. </span><span class='transcription' data-start=39.5 data-end=45>And then you&apos;d turn into the wind and get a little bit of spray in your face and, you&apos;d taste the salt,</span><span class='transcription' data-start=45 data-end=49>then you&apos;d feel those propellers turning, you know&mdash;the screws&mdash;</span><span class='transcription' data-start=49 data-end=52>and you could  feel the power in that thing, you know. Felt good.</span>"
+						},
+						{
+							id:"Marra_LIFE_Bow",
+							src:"audio/lifeAboard/Tin_Can_Bow/Anthony_Marra_LIFE_conditions_water_food_crew.mp3",
+							title:"Tin Can Navy - Anthony Marra, Damage Controlman 2nd Class, 1955-1958",
+							transcript:"<span class='transcription' data-start=0 data-end=3>Interviewer: For people who&apos;ve never served on a ship like myself,</span><span class='transcription' data-start=3 data-end=9>it&apos;s sometimes hard know, you know, what life on board the Cassin Young was like, in terms of experience;</span><span class='transcription' data-start=9 data-end=12.5>how crowded it was, how many crew members there were, that kind of thing.</span><span class='transcription' data-start=12.5 data-end=17>Discipline, food. If you have some memories about it, we'd like to hear them.</span><span class='transcription' data-start=17 data-end=19>Marra: As far as the food, I can&apos;t say it was bad. It was good.</span><span class='transcription' data-start=19 data-end=26>Except a few times we had water hours. They couldn&apos;t make too much fresh water, because the boilers were leaking, and they were making boiler water,</span><span class='transcription' data-start=26 data-end=30>and we wound up with sandwiches and stuff like that.</span><span class='transcription' data-start=30 data-end=33.5>Now, whatever showers they did have at the time, was salt water showers, which were murder.</span><span class='transcription' data-start=33.5 data-end=37>They'd wash your clothes in salt water, and that was bad.</span><span class='transcription' data-start=37 data-end=41>Interviewer: When you were talking about the showers, do you mean there were never any fresh water showers?</span><span class='transcription' data-start=41 data-end=46>Marra: No, just certain times. Mostly when we were steaming, like we were out for quite a long time,</span><span class='transcription' data-start=46 data-end=48.5>we couldn&apos;t get to a port where we could get fresh water.</span><span class='transcription' data-start=48.5 data-end=56>We used to distill our own fresh water, and we were using more boiler water than they could distill.</span><span class='transcription' data-start=56 data-end=63>They wouldn&apos;t run out; they would start rationing it, like knocking showers off and just giving you a, a sinkful to wash up in...</span><span class='transcription' data-start=63 data-end=66>When it rained, we would go topside with soap, and shower on the deck...</span><span class='transcription' data-start=66 data-end=68>...</span><span class='transcription' data-start=68 data-end=71>Discipline on the destroyer was very relaxed.</span><span class='transcription' data-start=71 data-end=78>You could wear dungarees all day. You only had to salute the officers on board once a day in the morning when we had quarters.</span><span class='transcription' data-start=78 data-end=80>Salute the Captain every time you saw him.</span><span class='transcription' data-start=81 data-end=88>But, compared to, you know, a cruiser or something like that, you had to be in your uniform during the day and everything had to be just so&mdash;we didn&apos;t.</span><span class='transcription' data-start=88 data-end=93>We were what they called the Tin-Can Navy, or Hooligan&apos;s Navy&mdash; we looked like a bunch of bums.</span><span class='transcription' data-start=93 data-end=97>But as far as the crew and everything, it was a good crew.</span><span class='transcription' data-start=97 data-end=104>And, I think we had either 170 or 200, you know, crewmen on board.</span><span class='transcription' data-start=104 data-end=109>and I knew them all by their first names, the majority of them&mdash;even the officers.</span><span class='transcription' data-start=109 data-end=112>And everyone got along pretty good...</span>"
+						},
+						{
+							id:"Spangler_LIFE_Bow",
+							src:"audio/lifeAboard/Tin_Can_Bow/William_Spangler_LIFE_roughWeather.mp3",
+							title:"Weathering a Typhoon - William &quot;Bill&quot; Spangler, Storekeeper 2nd Class, 1943-1944",
+							transcript:"<span class=transcription data-start=0 data-end=2>Spangler: I rode the first typhoon.</span><span class=transcription data-start=2 data-end=5>Not the second one where they lost the 3 destroyers but the first one.</span><span class=transcription data-start=5 data-end=7.5>It&apos;s about late October or early November.</span><span class=transcription data-start=7.5 data-end=8>Interviewer: Mmhmm. </span><span class=transcription data-start=8 data-end=9>Spangler: It was a 3 day typhon.</span><span class=transcription data-start=9 data-end=17>We tried to refuel up against the South Dakota and the water was so bad it ripped welded stanchions right off the deck of the ship.</span><span class=transcription data-start=17 data-end=20>We were fairly low on fuel, it was a really rough time.</span><span class=transcription data-start=20 data-end=22>Everything was gray, the water, the sky, everything.</span><span class=transcription data-start=22 data-end=32>And when you&apos;d leave the after hatch to come up forward,if you were going up a wave, you looked back and see 40 or 50 feet of water piled up behind you. Interviewer: Just piled up...Oh!</span><span class=transcription data-start=32 data-end=37>Spangler: Everything was damp and wet, the water would get inside the after hatch and stuff like that.</span><span class=transcription data-start=37 data-end=40>It was sort of a miserable feeling.</span>"
+						},
+						{
+							id:"Marra_LIFE_Bow_Hurricane",
+							src:"audio/lifeAboard/Tin_Can_Bow/Anthony_Marra_LIFE_hurricaneandDamage.mp3",
+							title:"Weathering a Hurricane - Anthony Marra, Damage Controlman 2nd Class, 1955-1958",
+							transcript:"<span class=transcription data-start=0.5 data-end=6>Interviewer: I was also wondering about storms as you mentioned they called the destroyers the tin cans and so forth</span><span class=transcription data-start=6 data-end=9>and I&apos;ve heard that they&apos;re very bouncy in rough weather.</span><span class=transcription data-start=9 data-end=12>Could you describe that a little bit, like in a big storm?</span><span class=transcription data-start=12 data-end=13>Marra: Hurricane.</span><span class=transcription data-start=13 data-end=17>Took us five days to go about 60 miles off the coast of Florida. </span><span class=transcription data-start=17 data-end=20>This was in, &apos;57 I think it was.</span><span class=transcription data-start=20 data-end=22.5>And, you just couldn&apos;t go topside. </span><span class=transcription data-start=22.5 data-end=26.5>I had to come up forward to check the chain locker&mdash;it was flooding&mdash;and get it pumped out. </span><span class=transcription data-start=26.5 data-end=32>And I got up here, up forward and I couldn&apos;t get back to my own shop&mdash;get back to the fantail way back. </span><span class=transcription data-start=32 data-end=35>I was up here [in the bow of the ship] for four days.</span><span class=transcription data-start=35 data-end=37.5>Interviewer: You mean you couldn&apos;t get from the bow to the stern of the ship? </span><span class=transcription data-start=37.5 data-end=43>Marra: No. Because I had to go topside and the weather was so bad, I was lucky I made it up here. </span><span class=transcription data-start=43 data-end=45.5>Interviewer: That means no one could go topside?</span><span class=transcription data-start=45.5 data-end=47.5>Marra: You chanced it yourself.</span><span class=transcription data-start=47.5 data-end=50>The skipper [Captain] didn&apos;t like anybody up there to start off with. </span><span class=transcription data-start=50 data-end=55.5>And...as far as food, they tried to get sandwiches back to the crew that was back aft. </span><span class=transcription data-start=55.5 data-end=60>And it was just...bouncing all over the place. You couldn&apos;t sleep.</span><span class=transcription data-start=61 data-end=68>And when the storm did break&mdash;the hurricane did break&mdash;and we were able to get topside and everything, the ship was just a mess&mdash;we lost our whale boats. </span><span class=transcription data-start=68 data-end=75>The boat davits had broke off. The back of the forward gun mount, number one mount there, the bulkheads were all caved in. </span><span class=transcription data-start=75 data-end=77.5>Oxygen acetylene bottles were rolling around. </span><span class=transcription data-start=77.5 data-end=84>All the firehoses were all...were just all over the ship. The paint locker broke loose. The ship looked like it was camouflaged. </span><span class=transcription data-start=84 data-end=93>And the...some of the depth charges were broke loose. They were rolling around. But there were no warheads in them, so we were lucky there.</span>"
+						},
+					],
+					people : []
+				},
+				{
+					id : "wardroom",
+					introText : "<p>Though a small ship, a hierarchy still existed on <i>Cassin Young</i>. This is established by military rank and tradition. Traditionally, commissioned officers have their own sleeping, living, and dining spaces separate from the rest of the crew. Here in the wardroom, you stand at the center of the commissioned officers&apos; living space. Serving as the living room, dining room, conference room, courtroom, and formal ceremonial hall, it was the the most open and comfortable space on the ship. Nevertheless, enlisted seamen could serve on this ship for a year and never see this room.</p><p>As a privilege of rank, the officers had stewards assigned to the wardroom to prepare and serve their meals out of the nearby pantry. The food, however, was paid for by the officers themselves. Just below this deck are the officers&apos; staterooms. Smaller than most college dormitories, officers still had to share the stateroom with one or two other officers.</p><p>Yet even tradition yields to the mission of a ship to serve the fleet and the nation. If you look above the wardroom table, a surgical lamp hangs overhead. In time of need, this room served as the primary casualty station and the ship&apos; operating room. In one emergency in particular during 1944, the ship&apos;s doctor and his chief pharmacist&apos; mate performed an appendectomy right on this table.</p>",
+					title : "Officer&apos;s Country",
+					subtitle : "The Wardroom",
+					menuImage : "images/menuItems/wardroom_LIFE.jpg",
+					marker : {lat: 42.37236068306147, lng: -71.05460445396602},
+					images : [
+					/*
+						{
+							src:"images/slideshows/lifeAboard/wardroom/John_Hooper-Wardroom_Khakis.jpg",
+							caption:"Officers enjoying some leisure in Wardroom. Courtesy of John Hooper, Captain, 1957-1959. NEED TO GET HIGH RES AND BREAK THESE DOWN.",
+							altText:""
+						},
+						*/
+						
+						{
+							src:"images/slideshows/lifeAboard/wardroom/BOSTC3075_Steaming-RecordPlayerPantry.jpg",
+							caption:"Officer playing record in Wardroom, USS <i>Cassin Young</i> Cruise Book, 1956-57.",
+							altText:""
+						},
+						{
+							src:"images/slideshows/lifeAboard/wardroom/BOSTC-1956MedCruiseBook_WardroomPantry-Stewards.jpg",
+							caption:"Stewards in the Pantry, preparing food for the officers&apos; meal. USS <i>Cassin Young</i> Cruise Book, 1953",
+							altText:""
+						},
+						{
+							src:"images/slideshows/lifeAboard/wardroom/BOSTC3075_Cates-PortCabin.jpg",
+							caption:"Commander Clifton B. Cates Jr. in his In-Port Cabin, USS <i>Cassin Young</i> Cruise Book, 1956-57.",
+							altText:""
+						},
+						{
+							src:"images/slideshows/lifeAboard/wardroom/BOSTC3075_Officer_Stateroom.jpg",
+							caption:"A junior officer typing a report in his stateroom, USS <i>Cassin Young</i> Cruise Book, 1956-57.",
+							altText:""
+						},
+					],
+					audio : [
+						{
+							id:"Hooper_LIFE_Wardroom",
+							src:"audio/lifeAboard/Wardroom/John_Hooper_LIFE_CO.mp3",
+							title:"Life as the CO - Capt. John Hooper, Commanding Officer, 1957-1960",
+							transcript:"<span class=transcription data-start=0.1 data-end=6.5>Hooper: I reported aboard, I recall, around the 4th of September 1958, relieving a Commander Cates. </span><span class=transcription data-start=6.5 data-end=12.5>And...I stayed until the ship was decommissioned, which was on the 29th of April, 1960.</span><span class=transcription data-start=12.5 data-end=19.25>As you can probably appreciate, the  commanding officer was responsible for the entire operation of the ship.</span><span class=transcription data-start=19.25 data-end=27>Under normal routine steaming...he maintained his presence...in the general vicinity of the bridge.</span><span class=transcription data-start=27 data-end=35> During evening routine steaming, he had a little cabin up on the bridge level which was where he was immediately available 24 hours a day, </span><span class=transcription data-start=35 data-end=42.5>by either voice tube or sound-powered phones to come to the bridge if necessary, which was about two steps away. </span><span class=transcription data-start=42.5 data-end=45>Interviewer: How often would you estimate you use your in-port cabin?</span><span class=transcription data-start=45 data-end=52.25>Hooper: Just normally, when you&apos;re in port. This is not to say that you didn&apos;t leave the bridge level during operations at sea, but, </span><span class=transcription data-start=52.25 data-end=67.5>the officers of the decks were adequately prepared and trained so that you could depend on them to make good judgements and...do the right thing otherwise you&apos;d never qualify them as officers of the decks.</span><span class=transcription data-start=67.5 data-end=72>Interviewer: So, how many nights out of the week would that mean you slept without being disturbed?</span><span class=transcription data-start=72 data-end=77>Hooper: At sea...practically zero. [chuckles]</span><span class=transcription data-start=77 data-end=89.5>Most of the sleeping that you did as commanding officer at sea was in sort of like cat-naps&mdash;and usually, you know, if you detected any quick maneuver or sharp turn, that, you&apos;d automatically wake up.</span><span class=transcription data-start=89.5 data-end=91>Interviewer: You were that sensitive to changes?</span><span class=transcription data-start=91 data-end=98>Hooper: Oh yeah, yeah. You know, at sea, when the&mdash;everything is operating, just like in a car, you feel...</span><span class=transcription data-start=98 data-end=107>certain vibrations and as long as you feel those vibrations everything is going fine. If something&mdash;everything&mdash;stops...you know something&apos;s unusual happened.</span>"
+						},
+						{
+							id:"Finnegan_LIFE_Wardroom",
+							src:"audio/lifeAboard/Wardroom/George_T_Finnegan_LIFE_AcademyToDestroyer.mp3",
+							title:"Becoming a Tin Can Officer - Ens. George T. Finnegan, Navigator, 1944-1946",
+							transcript:"<span class=transcription data-start=0.1 data-end=4.5>I served all my time in the surface Navy on destroyers, and...</span><span class=transcription data-start=4.5 data-end=9>the destroyer duty at the Naval Academy was the most sought-after...</span><span class=transcription data-start=9 data-end=14.25>after first, the Marine Corps and secondly submarines, then came destroyers. </span><span class=transcription data-start=14.25 data-end=22>The Marine Corps was impossible to get into from the Naval Academy during those days, unless you were in a Marine family.</span><span class=transcription data-start=22 data-end=29.5>The submarines was also a very limited choice of service; they didn&apos;t take that many from the total Academy class. </span><span class=transcription data-start=29.5 data-end=34.5>And so the vast number of people from the Naval Academy were going to the surface ships. </span><span class=transcription data-start=34.5 data-end=40.5>So that the question was, what ship would you go to, and the destroyer by far was the first choice, </span><span class=transcription data-start=40.5 data-end=44.25>because it was aboard a destroyer that a young naval officer&mdash;</span><span class=transcription data-start=44.25 data-end=53.25>as is illustrated in my case and in Joe Fallardeau&apos;s case too&mdash; that, we come aboard this ship, I become a navigator,  which is a position in responsibility next to the captain; </span><span class=transcription data-start=53.25 data-end=62.25>Joe Fallardeau becomes gunnery officer, which aboard a  cruiser or aboard a battleship or aboard a carrier, you wouldn&apos;t even reach that position for years! </span><span class=transcription data-start=62.25 data-end=69.5>It would take you years to get in that position of responsibility, while aboard a destroyer, you get it the day after you get aboard the ship. </span><span class=transcription data-start=69.5 data-end=80.25>In addition to that, the Fletcher class was just such a beautiful ship; I think it is one of the prettiest ships that has ever been designed, just in appearance and in performance. </span><span class=transcription data-start=80.25 data-end=85.25>It was just a classy ship. It was a beautiful ship to see, and it was a beautiful ship to handle. </span><span class=transcription data-start=85.25 data-end=90.33>But the destroyer was the roughest duty of all, but it was the most prized duty of all. </span><span class=transcription data-start=90.33 data-end=99>Because really, as far as the people aboard are concerned, it gave you the greatest satisfaction in really feeling alive and doing something purposeful on the ship, </span><span class=transcription data-start=99 data-end=107>rather than, say on a carrier where you were performing a function, but a lot of times you had to look out a porthole to make sure you were at sea. </span><span class=transcription data-start=107 data-end=116>There was a definite spirit among the destroyer people. The ship you&apos;re sitting on, really was a great experience for the people who served on it.</span>"
+						},
+						{
+							id:"Sevensma_LIFE_Wardroom",
+							src:"audio/lifeAboard/Wardroom/Eugene_Sevensma_LIFE_appendicitis.mp3",
+							title:"Appendectomy in the Wardroom - Dr. Eugene Sevensma, Ship&apos;s Doctor, 1943-1945",
+							transcript:"<span class=transcription data-start=.25 data-end=9.5>Sevensma: One story that I think probably has not been told by someone else is, when a man developed a pain in his abdomen and I diagnosed appendicitis. </span><span class=transcription data-start=9.5 data-end=19.25>This was at night...we decided that, considering the various options, that the best thing would be to do the operation on the ship. </span><span class=transcription data-start=19.25 data-end=25>And so we did that in the wardroom. Was the first appendectomy that I&apos;d ever done all by myself. </span><span class=transcription data-start=25 data-end=27>It&apos;s kind of a lonely feeling.</span><span class=transcription data-start=27 data-end=34.5>I had to not only do the appendectomy, but I had to give the guy his spinal anesthetic, and then turn him over and do the operation...</span><span class=transcription data-start=34.5 data-end=36.25>Unique experience. </span><span class=transcription data-start=36.25 data-end=38>Interviewer: He pulled through though. </span><span class=transcription data-start=38 data-end=63>Sevensma: Yeah, he did fine. In fact, for a few days he got to stay in the captain&apos;s cabin! [chuckles]</span>"
+						},
+						{
+							id:"Lorichon_LIFE_Wardroom",
+							src:"audio/lifeAboard/Wardroom/Raymond_Lorichon_LIFE_appendicitis.mp3",
+							title:"Appendectomy in the Wardroom - Raymond Lorichon, Chief Pharmacist&apos;s Mate, 1943-1945",
+							transcript:"<span class=transcription data-start=.25 data-end=4.5>Interviewer: How did you ever perform surgery on that bucket? </span><span class=transcription data-start=4.5 data-end=10>Lorichon: Well, we did one. We were riding pretty much on the edge of a typhoon. </span><span class=transcription data-start=10 data-end=13>And, it was pretty rough.</span><span class=transcription data-start=13 data-end=17>We had this hot appendix, and it had to be taken out. </span><span class=transcription data-start=17 data-end=23.5>So we got permission to set out by ourselves so the skipper could try and flatten out some of the waves. </span><span class=transcription data-start=23.5 data-end=31>We operated in the wardroom, and, that night the doctor and myself&mdash;I was his assistant&mdash; </span><span class=transcription data-start=31 data-end=35>we were strapped to the table to stay with the patient. </span><span class=transcription data-start=35 data-end=41>The patient was athwart ships, and we were standing fore and aft and it was pitching us all over the place. </span><span class=transcription data-start=41 data-end=46.5>But we got through it, by being strapped right in and, being very careful.  </span><span class=transcription data-start=46.5 data-end=49.75>It&apos;s very touchy surgery under those conditions.  </span><span class=transcription data-start=49.75 data-end=55>We did it. The patient lived, and, progressed very well after that.</span>"
+						},
+						{
+							id:"McGee_Life_Meals_Wardroom",
+							src:"audio/lifeAboard/Wardroom/Bill_McGee-LIFE-WardroomDining.mp3",
+							title:"Officer&apos;s Meals - Bill McGee, Commissaryman 3rd Class, 1957-1959",
+							transcript:"<span class=transcription data-start=.7 data-end=4.0> Interviewer: Now the officers did not eat with the crew, is that correct?</span><span class=transcription data-start=4.1 data-end=5.4> McGee: No they ate here in the Wardroom</span><span class=transcription data-start=5.7 data-end=11> I recall there were 18... 12 to 18 officers aboard ship, and...</span><span class=transcription data-start=12.6 data-end=15.4> They would eat their meals at the regular time as the crew would</span><span class=transcription data-start=16.2 data-end=20.8> their meals were prepared in the Galley by stewards, brought into the pantry,</span><span class=transcription data-start=21.5 data-end=27.1> and kept warm until they were ready to eat and then their meals were brought in here for them to eat, into the Wardroom</span><span class=transcription data-start=27.4 data-end=33.7> There were separate meals too, that the officers ate, usually they were separate if we ran into some bad weather</span><span class=transcription data-start=34.1 data-end=36.3> they would eat the same meals we would eat.</span><span class=transcription data-start=36.6 data-end=42.3> It wasn&apos;t anything fancy, their menu was the same as ours, only they ate different meals at different dates.</span><span class=transcription data-start=42.7 data-end=49.2> If we were having chicken, they were maybe having roast pork, or if we were having pork they might be having roast beef or something along those lines. </span>"
+						},
+					],
+					people : []
+				},
+				{
+					id : "galley",
+					introText : "<p>Inside this compartment, men worked around the clock to make breakfast, lunch, and dinner for as many as 300 men. When they weren&apos;t making meals, the galley made bread, doughnuts, and other baked goods to keep the ship fed and running all through the night. Once a meal was ready, men had to carry the food by hand up the deck and down two steep ladders to the &quot;chow line.&quot; In rough seas, this was no easy task.</p><p>When there were fresh supplies and the weather was fair, you might catch the smell of freshly baked bread, roast turkey, candied yams, and even pie. If the weather was rough, supplies went low, or circumstances called for extended duties at battle stations, meals could be reduced to nothing more than cold bologna sandwiches or beans.</p>",
+					title : "Keeping 300 Men Fed",
+					subtitle : "The Ship&apos;s Galley",
+					menuImage : "images/menuItems/Galley_LIFE.jpg",
+					marker : {lat: 42.37218036049552, lng: -71.05442474596202},
+					images : [
+						{
+							src:"images/slideshows/lifeAboard/galley/BOSTC3075_Galley.jpg",
+							caption:"Commissarymen preparing food in the galley. USS <i>Cassin Young</i> Cruise Book, 1956-57.",
+							altText:""
+						},
+						{
+							src:"images/slideshows/lifeAboard/galley/BOSTC3075_SupplyMen_GalleyOven.jpg",
+							caption:"Baker checking the electric oven of the ship&apos;s galley. USS <i>Cassin Young</i> Cruise Book, 1956-57.",
+							altText:"Black and white image of cook preparing bread in the galley. In this image the cook is checking on the texture of bread being baked in the electric oven with a large metal fork. The door to the oven is open, and a metal tray with bread has been pulled out for inspection. In the background there is another sailor standing by to assist."
+						},
+						{
+							src:"images/slideshows/lifeAboard/galley/BOSTC3075_Genoa_ChowLine.jpg",
+							caption:"Mess serving line (&quot;Chow Line&quot;) for crew. USS <i>Cassin Young</i> Cruise Book, 1956-57.",
+							altText:"Black and white image of the cramped serving line for the crew&apos;s meals. In this image taken below deck,  there are about seven crew members standing in front of the serving line. Behind the serving counter there are two other crew members who are placing the food onto the metal tray that each sailor is holding."
+						},
+						{
+							src:"images/slideshows/lifeAboard/galley/BOSTC_Box1126-Folder16_10thAnnivCake.jpg",
+							caption:"USS Cassin Young (DD-793) 10th Anniversary Cake, Ca. 1953",
+							altText:"Black and white image showing two crew members, one of whom is a cook pointing out a finished cake that was made in the shape of USS Cassin Young. The other man present is in the uniform of an officer. The image presents a side profile of the cake which is about three feet long. The cake was created for the tenth anniversary of the ship's  commissioning."
+						}
+					],
+					audio : [
+						{
+							id:"McGee_Cooking_Galley",
+							src:"audio/lifeAboard/Galley/Bill_McGee-LIFE-GalleyCooking.mp3",
+							title:"Cooking in the Galley - Bill McGee, Commissaryman 3rd Class, 1957-1959",
+							transcript:"<span class=transcription data-start=.5 data-end=3.8>Interviewer: How did you happen to be assigned to the Cassin Young?</span><span class=transcription data-start=3.9 data-end=7.8>McGee: Well the ship that I was on, the USS <i>Heerman</i> DD-532, </span><span class=transcription data-start=7.8 data-end=13.5>was put out of commission around April or May of &apos;57. </span><span class=transcription data-start=13.5 data-end=19.8>And I was reassigned to the Cassin Young, I believe it was in Boston here in dry dock being done over, </span><span class=transcription data-start=19.8 data-end=24.7>and I drove up from Newport and was welcomed aboard the <i>Cassin Young</i> for a year and a half. </span><span class=transcription data-start=24.7 data-end=28.2>I was a commissaryman third class, cook and baker. </span><span class=transcription data-start=28.2 data-end=32.2>I went to the commissary school in 1954 after I got out of bootcamp. </span><span class=transcription data-start=32.2 data-end=36.6>So I was at sea about 3 and a half years aboard the <i>Heerman</i> and the <i>Cassin Young</i>.</span><span class=transcription data-start=37 data-end=42>Interviewer: Could you describe your duties in that position a little bit? </span><span class=transcription data-start=42 data-end=44.75>McGee: Well, usually I was teamed up with another person. </span><span class=transcription data-start=44.75 data-end=47.5>For&mdash;if we were at sea we would work in the galley. </span><span class=transcription data-start=47.5 data-end=50.1>We would work one day on and one day off. </span><span class=transcription data-start=50.1 data-end=56.5>We&apos;d start our evening meal in the afternoon about 1 o&apos;clock, and we&apos;d stay on, and work the evening meal... </span><span class=transcription data-start=56.5 data-end=61.2>retire for the evening, get up around 4:30 and cook breakfast, </span><span class=transcription data-start=61.2 data-end=67>and then cook dinner and then we&apos;d be off about 1 o&apos;clock for 24 hours and then we&apos;d come back on. </span><span class=transcription data-start=67 data-end=72>There were 4 of us, on port and starboard watch they were called&mdash;port and starboard watch. </span><span class=transcription data-start=72 data-end=74.3>Two worked one day, two worked the next. </span><span class=transcription data-start=74.3 data-end=80.3>When we were in port we usually worked 2 days on and 2 days off and every other weekend off. </span><span class=transcription data-start=80.5 data-end=84.6>Interviewer: Were there ever any, complaints, or compliments about your food? </span><span class=transcription data-start=84.6 data-end=88>McGee: Oh, more complaints than compliments. [Laughing] </span><span class=transcription data-start=88 data-end=91.8>There were more complaints because guys were 19, 20, and they were, </span><span class=transcription data-start=91.8 data-end=97.1>used to eating maybe at home [where they ate] all they wanted to eat and weren&apos;t rationed. </span><span class=transcription data-start=97.1 data-end=102.8>I know we had to ration them 2 pieces of bread for lunch and 1 at night&mdash;they couldn&apos;t even make a sandwich. </span><span class=transcription data-start=102.8 data-end=109.4>And we always used to give it our best doing Thanksgiving dinner, and doing Christmas dinner aboard ship. </span><span class=transcription data-start=109.4 data-end=117.3>And, Easter&mdash;some of the major holy days or holidays  because it was a special meal especially for us who were away from home. </span><span class=transcription data-start=118 data-end=123.8>And we&apos;d have extra help to help us because, we had to cook maybe 18 or 20 turkeys... </span><span class=transcription data-start=124.4 data-end=126>Of course the guys wouldn&apos;t be rationed. </span><span class=transcription data-start=126.1 data-end=129.9>We gave them as much as they wanted but they could always come back for more during those special days.</span>"
+						},
+						{
+							id:"McGee_Baking_Galley",
+							src:"audio/lifeAboard/Galley/Bill_McGee-LIFE-GalleyBaking.mp3",
+							title:"Baking in the Galley - Bill McGee, Commissaryman 3rd Class, 1957-1959",
+							transcript:"</span><span class=transcription data-start=0.8 data-end=2.65>Bill McGee: I used to bake also...</span></span><span class=transcription data-start=2.75 data-end=4.8>We&apos;d get a break in our duties</span></span><span class=transcription data-start=4.85 data-end=7.5>There&apos;d be eight of us who were cooks and bakers.</span></span><span class=transcription data-start=9.2 data-end=11.3>If we weren&apos;t cooking we would be baking in the evening </span></span><span class=transcription data-start=11.4 data-end=15>We&apos;d have to bake everything that we ate of course </span><span class=transcription data-start=15.1 data-end=18.75>Bread-we ran out of bread a couple of weeks after we got underway to go overseas. </span><span class=transcription data-start=18.8 data-end=22.35>So we&apos;d have to make bread every night-that was about 100 loaves of bread every night. </span><span class=transcription data-start=23.1 data-end=26.6>We&apos;d work from 7 o&apos;clock in the evening till around 7 o&apos;clock the next morning, </span><span class=transcription data-start=26.7 data-end=31>just putting out breads and pies and cakes and muffins and doughnuts. </span><span class=transcription data-start=31.5 data-end=36.4>We&apos;d start breakfast for the crew and let the regular cooks sleep in a little while longer if they had a chance to. </span><span class=transcription data-start=37.4 data-end=40.4>We had to work with just about the bare essentials. </span><span class=transcription data-start=40.5 data-end=45>The equipment aboard ship was ah something to be desired. </span><span class=transcription data-start=45  data-end=47.1>I remember one time that the Hobart man was here and </span><span class=transcription data-start=47.5 data-end=51.65>And we swore that the mixing machine in the galley was a Hobart </span><span class=transcription data-start=51.7 data-end=54.5>And he said he&apos;d been with the company for&mdash;I don&apos;t know, 25 years&mdash;</span><span class=transcription data-start==transcription data-start=54.5 data-end=57.1>And he never saw a mixing machine like that. </span><span class=transcription data-start=57.8 data-end=60.5>So we started started chipping away some paint about 6 or 8 layers of paint, </span><span class=transcription data-start=61 data-end=61.65>and sure enough, it was a Hobart.</span><span class=transcription data-start==transcription data-start=62.2 data-end=63.7>He couldn&apos;t get over it. </span><span class=transcription data-start=64 data-end=65.8>We&apos;d have a lot of breakdowns with that machine,</span><span class=transcription data-start==transcription data-start=65.8  data-end=69.15>Because of the pressure that was put on the ah-mixer itself. </span><span class=transcription data-start=70  data-end=73.6>When that machine broke down we&apos;d have to mix our bread in the sink by hand. </span><span class=transcription data-start=75.1  data-end=76.6>And that would take an awful long time, </span><span class=transcription data-start=77 data-end=82.5>because we used hundreds of pounds of flour, water, and all kinds of ingredients </span><span class=transcription data-start=82.6  data-end=85.5>It was very tough to make bread by hand. </span><span class=transcription data-start=87.4 data-end=88.5>It was really fascinating&mdash;</span><span class=transcription data-start=88.5  data-end=91.1>I really enjoyed it. It was a lot of hard work at the time. </span><span class=transcription data-start=92  data-end=93.5>Making 100 loaves of bread from scratch with a beat up mixing machine. </span><span class=transcription data-start=95.2  data-end=97.2>It was probably made in 1938 or so...</span><span class=transcription data-start=98.2  data-end=99.6>But...we had a lot of fun and...</span><span class=transcription data-start=100.5  data-end=104>I was teamed up with a lotta real nice guys and we used to have a lot of fun</span>"
+						},
+						{
+							id:"OConnell_Life_Galley",
+							src:"audio/lifeAboard/Galley/Dave_OConnell_LIFE_Food.mp3",
+							title:"Food on Board - Dave O&apos;Connell, Torpedoman 2nd Class, 1943-1945",
+							transcript:"<span class=transcription data-start=0 data-end=3>Interviewer: How was the food?</span><span class=transcription data-start=3 data-end=8>O&apos;Connell I thought it was alright because I was the youngest of 11 children, and the working people ate first, </span><span class=transcription data-start=8 data-end=14>so I got pretty much what was on the table when we were growing up. </span><span class=transcription data-start=14 data-end=18>I never was a fussy eater. And there were times </span><span class=transcription data-start=18 data-end=28> that we just had  beans, beans, beans but we couldn&apos;t catch up with the supply ship so that&apos;s what you ate. </span><span class=transcription data-start=28 data-end=32>There were times when we were traveling so fast and so long </span><span class=transcription data-start=32 data-end=39>and we had the flour on board ship that the bakers were to make bread. </span><span class=transcription data-start=39 end>44> Every day they were to make bread and everything else.  And positivity the flour had boll weevils. </span><span class=transcription data-start=44 data-end=48> and they&apos;d make the bread and you'd pick out a bug and you'd throw it away </span><span class=transcription data-start=48 end 52> but it didn&apos;t mean anything.  And this is the way these are the conditions </span><span class=transcription data-start=52 end 56>you had to have and now everybody didn&apos;t accept it. </span><span class=transcription data-start=56 end 1:00> Myself,what did I care, as long as there was  something to eat. </span><span class=transcription data-start=60 data-end=64> Didn&apos;t bother me a bit.  I thought on the whole, the cooks and bakers </span><span class=transcription data-start=64 data-end=67>did the best they could and it was all fine with me. </span><span class=transcription data-start=67 data-end=70>I didn&apos;t have any complaints.</span>"
+						},
+						{
+							id:"Haggerty_Life_Galley",
+							src:"audio/lifeAboard/Galley/Heath_Haggerty_LIFE_foodQuality.mp3",
+							title:"Quality of Food - Heath Haggerty, Gunner&apos;s Mate, 1944-1945",
+							transcript:"<span class=transcription data-start=1.1 data-end=2.9>The food was always good you know it was... </span><span class=transcription data-start=4.2 data-end=9.3> My own idea is that enough to eat is better than nothing to eat you know, so, I thought the food was always not bad they had, </span><span class=transcription data-start=10.3 data-end=14.9> dried eggs and powdered milk but, in those days they could only do so much with it </span><span class=transcription data-start=15.9 data-end=18.3> But it was still, you know, it was ample. It was good. </span><span class=transcription data-start=19.3 data-end=21.9> But after thirty days or so you&apos;d usually start running short. </span><span class=transcription data-start=23.5 data-end=26.9> We always had enough but, the selection was a lot less and...</span><span class=transcription data-start=28.7 data-end=31.7> I know one time we stayed out over forty-five days and...</span><span class=transcription data-start=32.2 data-end=39.2> that&apos;s the only time I can recall when the food got a little...not too good you know. But basically it was always good.</span>"
+						},
+						
+					],
+					people : []
+				},
+				{
+					id : "quarterdeck",
+					introText : "<p>The quarterdeck is the front door of the ship. The gangway connects the ship to a pier or dock at the brow on the Port side of the ship. From here, crew members began or ended their cruise aboard <i>Cassin Young</i>. This is also where crew members had the opportunity to punctuate their voyage with trips to foreign ports while on Liberty. It is at the quarterdeck where they begin and end their adventures. In the 1950s, Crew members visited ports across the globe. For most of the men, it was an opportunity they could use to see the world. During World War II, however, crew members did not visit a port for almost 16 solid months. Because of the demands of war cruising, the only respite off the ship were occasional visits to &quot;Beer Islands.&quot; On Mog-Mog island in the Ulithi Atoll, crew members enjoyed but a few hours at a time on solid land. There, they could have drinks, grilled food, play games, and go for a swim</p><p>As the front door of the ship, the Quarterdeck also played an important role for ceremonial occasions. Commissioning ceremonies, inspections, and award ceremonies brought dignitaries aboard. Expected to show respect to visiting Admirals and dignitaries, the crew would appear at attention in clean dress whites while standing on perfectly swept and clean decks during such occasions. Everything was to be done with perfect precision. If not, the crew quickly found out that they &quot;better get it right the next time.&quot;</p>",
+					title : "Liberty and Inspections",
+					subtitle : "Quarterdeck &amp; Gangway",
+					menuImage : "images/menuItems/QtrDeck_LIFE.jpg",
+					marker : {lat: 42.372004000562114, lng: -71.05419407598673},
+					images : [
+						{
+							src:"images/slideshows/lifeAboard/quarterdeck/NARA_NAVAER_281666-4-BeerIsland.jpg",
+							caption:"Crew members enjoying beer on Mog-Mog Island, Ulithi Atoll. Photograph taken by Dr. Eugene Sevensma, courtesy of the National Archives.",
+							altText:""
+						},						{
+							src:"images/slideshows/lifeAboard/quarterdeck/BOSTC_Box1126-Folder15_1952.jpg",
+							caption:"Saturday morning inspection, Puerto Rico, March 1952",
+							altText:"Black and white photograph of the starboard side of the ship near the quarterdeck. The entire crew is in dress white uniforms. They are standing at attention to port."
+						},
+						{
+							src:"images/slideshows/lifeAboard/quarterdeck/BOSTC1666_Box1126-Folder44_50sLiberty.jpg",
+							caption:"&quot;Be For&quot; a night of liberty in Japan, circa 1955",
+							altText:""
+						},
+						{
+							src:"images/slideshows/lifeAboard/quarterdeck/BOSTC1666_Box1126-Folder44_50sLiberty2.jpg",
+							caption:"&quot;After&quot; a night of liberty in Japan, circa 1955",
+							altText:""
+						}
+					],
+					audio : [
+						{
+							id:"Spangler_LIFE_PayandBeerIslands",
+							src:"audio/lifeAboard/Liberty/William_Spangler_LIFE_PayandBeerIslands.mp3",
+							title:"Pay and &quot;Beer Islands&quot; - William &quot;Bill&quot; Spangler, Storekeeper 2nd Class, 1943-1944",
+							transcript:"<span class=transcription data-start=.7 data-end=3.2> Spangler: For pay day we would give each person five dollars. </span><span class=transcription data-start=3.5 data-end=9.3> If they wanted a check, to send money home, we would give them a check, whatever, for the amount that they asked for. </span><span class=transcription data-start=10.1 data-end=14.9> And then charge it to an account. But this was to keep down the gambling aboard ship. Didn&apos;t work</span><span class=transcription data-start=15.8 data-end=18.3> Tried to keep&mdash;Interviewer: How often were they paid?&mdash;Spangler: Every two weeks. </span><span class=transcription data-start=19.4 data-end=23.9> Or, well, one in fifteen, every fifteen days. Twice a month&mdash;Interviewer: About every...twice a month?&mdash;Spangler: Yeah.</span><span class=transcription data-start=24.4 data-end=27.8> And we would post the pay sheet, that would tell each man how much money he had. </span><span class=transcription data-start=28.4 data-end=32.1> And then he could arrange with us if he wanted&mdash;got a large enough sum to send a check back</span><span class=transcription data-start=32.8 data-end=36.8> Interviewer: Oh, and would you give them more if they were going into port, or something of that sort? </span><span class=transcription data-start=37.2 data-end=39.7> Spangler: Well we never got into port so I don&apos;t remember really</span><span class=transcription data-start=39.8 data-end=41.8> Interviewer: Didn&apos;t happen too often? Spangler: No.</span><span class=transcription data-start=42.2 data-end=45.1> We sailed about, I, think it was like 100,000 miles. </span><span class=transcription data-start=45.8 data-end=49.6> and actually the only places we could go were these beer islands. Interviewer: And what was that?</span><span class=transcription data-start=50.4 data-end=56> Spangler: It was a, an island, the CBs took over and made, swimming area and, a bar</span><span class=transcription data-start=56.6 data-end=62.2> And you&apos;d go in there and just sit around and drink and talk and maybe gamble or play baseball or something like that. </span><span class=transcription data-start=62.5 data-end=67.8> You know, just a place to get off the ship for an afternoon. For a day or an afternoon. </span>"
+						},
+						{
+							id:"Finnegan_LIFE_BeerIslands",
+							src:"audio/lifeAboard/Liberty/George_T_Finnegan_LIFE_BeerIslands.mp3",
+							title:"&quot;Beer Island&quot; Cookouts - Ens. George T. Finnegan, Navigator, 1944-1946",
+							transcript:"<span class=transcription data-start=.8 data-end=5.8> Whenever they could get the men ashore they would use any opportunity to do that just to get them off the ship </span><span class=transcription data-start=5.9 data-end=7.8> and let them run around an island or something</span><span class=transcription data-start=7.9 data-end=13.9> and of course you never could drink aboard ship, but they always had beer that would... they&apos;d send ashore with the men and...</span><span class=transcription data-start=14.4 data-end=15.6> They&apos;d have a sort of a cookout</span><span class=transcription data-start=16.0 data-end=21.8> The idea would be to go out and just relax, have some beer, have some, cookout, have some steaks, and maybe go swimming </span><span class=transcription data-start=22.1 data-end=27.5> Well, the beer was fine except it was usually pretty hot, warm, hot beer</span><span class=transcription data-start=27.8 data-end=30.0> And it was always a blast to open the can</span><span class=transcription data-start=30.5 data-end=36.3> The steaks were fine except Doc would cook the steaks but first of all the steaks would be in a big pile</span><span class=transcription data-start=36.6 data-end=40.3> on a makeshift table there on this, sandy part of a beach</span><span class=transcription data-start=40.6 data-end=45.1> and they were invariably covered, actually, actually covered with a mass of flies</span><span class=transcription data-start=45.5 data-end=50.3> And the Doc would be sitting there, drinking this beer, and periodically,</span><span class=transcription data-start=50.4 data-end=58.5> blasting these flies with a can of DDT or whatever it was at the time and I remember these you know, wipe out these flies, then we used to shake the steaks off</span><span class=transcription data-start=59.1 data-end=1:03.6> And the Doc used to assure us that we cooked them in the fire when we used to just,</span><span class=transcription data-start=1:04.2 data-end=1:10.2> Get a fire going and just toss them right in the fire, that that would be alright, and I guess it was &apos;cuz no one ever, we never lost anyone that way</span><span class=transcription data-start=1:10.8 data-end=1:14.3> But then of course swimming too was kind of deceptive because </span><span class=transcription data-start=1:15.6 data-end=1:23.6> It used to be actually hot...and the coral was such that you had to wear sneakers, you&apos;d cut yourself up terribly, and...</span><span class=transcription data-start=1:24.1 data-end=1:28.8> Whenever it was, whenever it happened that you&apos;d be ashore at an incoming tide</span><span class=transcription data-start=1:29.3 data-end=1:33.5> the water would come up over that hot coral that had been baked by the sun</span><span class=transcription data-start=1:33.6 data-end=1:36.8> And actually in many cases the water would be steaming</span><span class=transcription data-start=1:37.0 data-end=1:40.1> You would have this sizzling effect of the water and as a result</span><span class=transcription data-start=1:10.5 data-end=1:43.2> when you try to go in swimming with these heavy sneakers on</span><span class=transcription data-start=1:43.7 data-end=1:48.8> for the first ten or fifteen feet, you were in real hot water and it was very difficult</span><span class=transcription data-start=1:49.0 data-end=1:51.3.> so the swimming just didn&apos;t work out</span>"
+						},
+						{
+							id:"Melville-OHara_LIFE_BeerIslands",
+							src:"audio/lifeAboard/Liberty/Melville-OHara_LIFE_BeerIslands.mp3",
+							title:"&quot;What do you want to drink, Lieutenant?&quot; - Al Melville, Coxwain, 1943-1945 and James &quotJim&quot; O&apos;Hara",
+							transcript:"<span class=transcription data-start=.6 data-end=5.1> Melville: Jim was telling me a story and I can remember vaguely about it. O&apos;Hara: You want that to go on the tape?</span><span class=transcription data-start=5.3 data-end=7.9> Melville: Why not? (laughing) They can erase it!</span><span class=transcription data-start=8.5 data-end=16.4> Well, I don&apos;t remember the exact details, but we were assigned to get the beer and, </span><span class=transcription data-start=17 data-end=20.5> There was a couple of officers that said that they would </span><span class=transcription data-start=20.7 data-end=25.5> see that we got our beer if we would go over to officers&apos; country at a certain time.</span><span class=transcription data-start=25.9 data-end=33.5> So, Jim and I went over there and it was getting about time for us to go gather up the beer for the men and, </span><span class=transcription data-start=34.1 data-end=39.8> so we got permission to enter officers&apos; country. Well, they had their own recreation area.</span><span class=transcription data-start=40.4 data-end=44.3> And we were all dressed the same in this, at this time, we were in swimming trunks.</span><span class=transcription data-start=44.5 data-end=48.1> And they didn&apos;t have any (laughing) Interviewer: No rank?  Melville: No ranks on us!</span><span class=transcription data-start=48.5 data-end=54.4> And we happened to wander into the, bar... now the officers&apos; country they had a bar and everything!</span><span class=transcription data-start=55.1 data-end=58.5> So we walked in there and I looked around and everybody looked the same</span><span class=transcription data-start=58.8 data-end=62.6> So I said &quot;Lieutenant, what do you want to drink?&quot; (all laughing)</span><span class=transcription data-start=62.7 data-end=68.5> O&apos;Hara: I remember the incident. So what happened was I went up&mdash;and I didn&apos;t know what to do, to run or what.</span><span class=transcription data-start=68.7 data-end=71.1> Melville: I figured well if they don&apos;t know then I don&apos;t know. </span><span class=transcription data-start=71.3 data-end=75.6> O&apos;Hara: Well I tell you, we went into this bar, which was really open air but you know, </span><span class=transcription data-start=75.7 data-end=80.3> had a tent but no sides, just to cover the great big long oval bar</span><span class=transcription data-start=80.5 data-end=85.7> (laughing) And we stepped up to it to look at the faces around it, looking for the officer in charge of our party. </span><span class=transcription data-start=86.4 data-end=90.2> and the bartender comes up to us and I was ignoring the bartender I&apos;m looking for</span><span class=transcription data-start=90.5 data-end=98.2> ‘Mr. So and So&apos; and the next thing I know this guy is saying &quot;What are you drinking Lieutenant?&quot; (all laughing)</span><span class=transcription data-start=98.5 data-end=100.9> So the bartender sets us up you know!</span><span class=transcription data-start=101.1 data-end=106.7> Melville: We decided we might as well enjoy the sauce. </span>"
+						},
+					
+					],
+					people : []
+				},
+				{
+					id : "aft_berthing",
+					introText : "<p>Through this hatch and down these ladders is Aft Berthing. This is where two thirds of the enlisted crew called home. Each man had a bunk, one small locker, and many, many neighbors. Men found the conditions from acceptable, to tolerable, to absolutely unbearable. For some it was the noise. For others it was odor of fuel oil, paint, and their fellow crewmembers. For many still, it was the extreme heat of the South Pacific or the cold dampness of the North Atlantic.</p><p>Despite these conditions, crewmembers formed friendships in these tight spaces that would last a lifetime. Returning to reunions decades after their service, men could always recall their bunk, their neighbors, their friends, and their best and worst times living aboard USS <i>Cassin Young</i>.</p>",
+					title : "Crew&apos;s Quarters: Home&ndash;or Hell&ndash;away from Home",
+					subtitle : "Aft Berthing",
+					menuImage : "images/menuItems/AftBerthing_LIFE.jpg",
+					marker : {lat: 42.371793953253764, lng: -71.05405728332698},
+					images : [
+						{
+							src:"images/slideshows/lifeAboard/aftBerthing/Jack_Surre-PICT0110.jpg",
+							caption:"Gambling for cigarettes in Aft Berthing. Courtesy of crew member Jack Surre, 1957-1959, Machinist Mate 3rd Class.",
+							altText:"Photograph of five crew members in a bunk space below the main deck of the Cassin Young. The crew members are around a game of playing cards and are looking at the photographer."
+						},
+						{
+							src:"images/slideshows/lifeAboard/aftBerthing/Jack_Surre-PICT0037.jpg",
+							caption:"Aft Berthing. Courtesy of crew member Jack Surre, 1957-1959, Machinist Mate 3rd Class.",
+							altText:""
+						},
+						{
+							src:"images/slideshows/lifeAboard/aftBerthing/Jack_Surre-PICT0036.jpg",
+							caption:"Aft Berthing. Courtesy of crew member Jack Surre, 1957-1959, Machinist Mate 3rd Class.",
+							altText:"Photograph of two crew members in a bunk space below the main deck of the Cassin Young. Both are shirtless due to the high heat below decks."
+						},
+						{
+							src:"images/slideshows/lifeAboard/aftBerthing/Jack_Surre-PICT0111.jpg",
+							caption:"In the midst of the bunks, Aft Berthing. Courtesy of crew member Jack Surre, 1957-1959, Machinist Mate 3rd Class.",
+							altText:"Photograph of five crew members in a bunk space below the main deck of the Cassin Young. The crew members are around a game of playing cards and are looking at the photographer."
+						},
+						{
+							src:"images/slideshows/lifeAboard/aftBerthing/Jack_Surre-PICT0042.jpg",
+							caption:"Aft Berthing. Courtesy of crew member Jack Surre, 1957-1959, Machinist Mate 3rd Class.",
+							altText:""
+						}
+					],
+					audio : [
+						{
+							id:"Haggerty_Life_AftBerthing",
+							src:"audio/lifeAboard/Aft_Berthing/Heath_Haggerty_LIFE_aftBerthing.mp3",
+							title:"The Hell of Aft Berthing - Heath Haggerty, Gunner&apos;s Mate, 1944-1945",
+							transcript:"<span class=transcription data-start=.25 data-end=7.17>Haggerty: Everybody had a bunk. Like, mine was in the after compartment, right down at the foot of the ladder there. </span><span class=transcription data-start=7.3 data-end=10.3> But it was so darn hot, I couldn&apos;t sleep down there. </span><span class=transcription data-start=10.3 data-end=16.8> They had...The ships now are a little better, air conditioning, but we didn&apos;t have any air conditioning. We had vents. </span><span class=transcription data-start=16.8 data-end=20.75> And they blew air in there but it was totally inadequate.</span><span class=transcription data-start=20.75 data-end=26.6> So guys would punch holes in them...and, divert a little on their own bunk, you know, </span><span class=transcription data-start=26.7 data-end=29.7> I didn&apos;t happen to sleep by one, or I&apos;d have probably done the same thing. </span><span class=transcription data-start=29.7 data-end=33.7> Then we had fans, a few fans here and there but...you know,</span><span class=transcription data-start=33.9 data-end=41.2> the guy that was closest to it would reach out with his foot and point it toward him and, wouldn&apos;t do you any good.</span><span class=transcription data-start=41.2 data-end=46> And so I couldn&apos;t sleep down there. I tried it but I&apos;d wake up with a headache and I felt horrible, </span><span class=transcription data-start=46 data-end=51.9> I just, I felt like I&apos;d been beaten up you know. I couldn&apos;t&mdash;I just couldn&apos;t take the air down there. It was just horrible.</span><span class=transcription data-start=51.9 data-end=59.8> So in my gun, which was the number 3 gun, for about a year, I slept in there...for a while...and then...</span><span class=transcription data-start=59.8 data-end=63.3> I forget, some reason that didn&apos;t work too good. Then I&apos;d sleep underneath it and...</span><span class=transcription data-start=63.3 data-end=68.9> I slept wherever I could find a spot, because I couldn&apos;t sleep down below. I just felt horrible.</span><span class=transcription data-start=69.1 data-end=74.3> Some nights they&apos;d, I never knew why but they&apos;d say nobody could sleep on the topside. </span><span class=transcription data-start=75.1 data-end=79.5> So...I don&apos;t know whether the weather was a little rough or what, but...</span><span class=transcription data-start=80.3 data-end=83.9> Then I&apos;d, I&apos;d sleep down below and, you know there&apos;s no ventilation. </span><span class=transcription data-start=84.9 data-end=92.9> It seemed to hit me worse than some guys, but I just, I couldn&apos;t,  I couldn&apos;t hack it, you know just...God it was awful! </span><span class=transcription data-start=93.3 data-end=100.4> And when I, after the war, when I went home I couldn&apos;t sleep in a bed for over a year. I slept on the floor. [chuckles]</span><span class=transcription data-start=101.1 data-end=105.5> Then after I started sleeping in a bed I put boards under it. I&apos;d get a thin mattress and put boards under them. [chuckles]</span><span class=transcription data-start=107.5 data-end=112.9> And then as the years went by I took the boards out you know. But I still like a firm mattress.</span>"
+						},
+						{
+							id:"Marrs_Life_AftBerthing",
+							src:"audio/lifeAboard/Aft_Berthing/James_Marrs_LIFE_Aft.mp3",
+							title:"Aft Berthing Family - James Marrs,  Quartermaster 1st Class, 1944-45",
+							transcript:"<span class=transcription data-start=.5 data-end=3.5> Interviewer: Did you sleep down below with the regular crew? Or did you&mdash;</span><span class=transcription data-start=3.5 data-end=10.8> Marrs: Oh Yeah, yeah. Until you made chief [chief petty officer] everybody first class on down to seamen all slept in the same crew's compartments. </span><span class=transcription data-start=10.8 data-end=14.8> And then the Chief&apos;s quarters had a separate compartment and then the officers. </span><span class=transcription data-start=14.8 data-end=19.0> I was back aft. Right by the number five upper handling room.</span><span class=transcription data-start=19.1 data-end=27.9> In fact at sea any time we were buttoned up for any kind of condition, the port hatches were closed. And we kinda had our own little world.   </span><span class=transcription data-start=28.0 data-end=34.2> In the Navy at the start of the war [...] all the divisions slept together&mdash;all the quartermasters and signalmen slept together.  </span><span class=transcription data-start=34.2 data-end=39.1> Well they had a couple of incidents early in the war when they would get a hit and wipe out say all the quartermasters and all the gunner&apos;s mates.</span><span class=transcription data-start=39.1 data-end=44.4> So they started mixing up the crews by rates. They wouldn&apos;t let a bunch of them sleep together.  </span><span class=transcription data-start=44.4 data-end=50.5> So you kinda had your two families: The one at your duty station in your particular rate and the one where you bunked.</span>"
+						},
+						{
+							id:"Spangler_Life_AftBerthing",
+							src:"audio/lifeAboard/Aft_Berthing/William_Spangler_LIFE_BerthandFriends.mp3",
+							title:"Bunkmates and Lifelong Friendships - William Spangler, Storekeeper 2nd Class, 1943-1944",
+							transcript:" </span><span class=transcription data-start=.6 data-end=5.1>Spangler: I slept just as you come down the ladder and made a left turn.  </span><span class=transcription data-start=5.2 data-end=9.5>There were three bunks. I was on the bottom and Bianchi, a gunners mate, was in the middle  </span><span class=transcription data-start=9.6 data-end=11.9>And Wiley a torpedoman&apos;s mate was on the top.  </span><span class=transcription data-start=112 data-end=14.3>The bunks were very narrow I don&apos;t know how I ever fitted in them.  </span><span class=transcription data-start=14.4 data-end=17.2>They were about, they seemed like about 18 inches wide.  </span><span class=transcription data-start=17.3 data-end=23.2>And anytime Wiley or Bianchi wanted to get to get into their lockers and if I were in the bunk they would just close me up. </span><span class=transcription data-start=23.3 data-end=.29.3>And take whatever they need and drop me down again sometimes. Or they would leave me up there sometimes too.  </span><span class=transcription data-start=29.4 data-end=31.8> But I had the choice bunk because it was on the bottom.  </span><span class=transcription data-start=31.9 data-end=39.0>Interviewer: That was the choice bunk? Because you didn&apos;t have to climb up? Spangler: Right, yeah. Interviewer: Even though they&apos;d wake you up to get into their lockers? </span><span class=transcription data-start=39.1 data-end=43.4>Spangler: I think we were all about on the same watch too, which made it pretty easy. </span><span class=transcription data-start=43.5 data-end=51.9>Bianchi was from San Francisco. And they day we left San Francisco we stood on the fantail and watched his house disappear.  </span><span class=transcription data-start=512 data-end=54.8>On to the horizon. That really shook him up.  </span><span class=transcription data-start=54.9 data-end=61.7>I visited his family in &apos;45. I came back and I went over there.  </span><span class=transcription data-start=61.8 data-end=69.8>Ken Wiley I was in touch with, I went to his wedding and then I saw him every 10 years after that.I&apos;d stop by and see him, met his family. He has 4 children. </span><span class=transcription data-start=69.9 data-end=77.5>Interviewer: Did you have any close friends before you went on board the ship that came on board with you or did you come by yourself and not know anyone?  </span><span class=transcription data-start=77.6 data-end=86.7>Strangler: No I came by myself down to Morele the rest of the crew was gathered up in, I guess, in San Francisco and shipped down as a unit.  </span><span class=transcription data-start=86.8 data-end=92.8>But I came down on separate orders so I could assist in the furnishing of the ship.  </span><span class=transcription data-start=92.9 data-end=96.5>So I didn&apos;t really know anybody. I met everybody once I got aboard.  </span><span class=transcription data-start=96.6 data-end=99.2>Interviewer: You make close friends obviously.  </span><span class=transcription data-start=99.3 data-end=101.6>Oh yeah, like Haggerty. Haggerty is here today.  </span><span class=transcription data-start=101.7 data-end=109.4>I remember, of course, Robinson. I think I have a line to Robinson, I think I might locate him in South Carolina. </span><span class=transcription data-start=109.5 data-end=116.0>And then there was a couple of others. Mazer who was a yeoman striker and a few others. </span><span class=transcription data-start=116.1 data-end=123.5>It was a very interesting, fluid, relationship. You could meet anybody. </span><span class=transcription data-start=123.6 data-end=131>Others from the different groups. Because, you ate together. It wasn&apos;t like on a big ship where you would be separated to your divisions all the time.</span>"
+						},
+						{
+							id:"Johndrow_1",
+							src:"audio/lifeAboard/Aft_Berthing/Theodore_Johndrow-LIFE-aftberthing.mp3",
+							title:"Theodore &quot;Ted&quot; Johndrow, Yeoman, 1958-1960",
+							transcript:"<span class='transcription' data-start=0 data-end=3>Interviewer: Did it feel real crowded on the ship most of the time?</span><br><span class='transcription' data-start=3 data-end=4>Johndrow: No.</span> <span class='transcription' data-start=4 data-end=7>When I went aboard the ship we had quite a transition.</span> <span class='transcription' data-start=7 data-end=10>When we came back from our North Atlantic cruise,</span> <span class='transcription' data-start=10 data-end=14>and, we went into the yards for a complete overhaul.</span> <span class='transcription' data-start=14 data-end=16>I believe it was the Charlestown Yard.</span> <span class='transcription' data-start=17 data-end=20>And that was when they took the troughs out of the heads,</span> <span class='transcription' data-start=20 data-end=24>and they put tile on the decks and the berthing spaces,</span> <span class='transcription' data-start=24 data-end=27>and they completely renovated the mess decks</span> <span class='transcription' data-start=27 data-end=29>and it really made a big difference.</span> <span class='transcription' data-start=29 data-end=31>Because when you got up in the morning</span> <span class='transcription' data-start=32 data-end=36>and slapped your flat feet out on the cold clammy wet steel deck</span> <span class='transcription' data-start=36 data-end=39>in the morning that you couldn't hardly stand up on because of the condensation</span> <span class='transcription' data-start=39 data-end=44>from everybody breathing down there because you didn't have the ventilation down there to speak of.</span> <span class='transcription' data-start=44 data-end=47>The tile on the deck really made a big difference.</span>"
+						}
+						],
+					people : []
+				},
+				{
+					id : "fantail",
+					introText : "<p>Extended cruises across the world&apos;s oceans could mean no shore liberty for days, weeks, or even months. Tempers could flare, and could men begin to despair over the monotony of routine. Recreation helped pass the time and break up boredom. Card games were very popular, and when conditions permitted, every evening promised a feature film. Boxing and other competitions also helped alleviate pent-up frustrations and energies.</p><p>Other crew members turned to pets as mascots and companions. Although these were never officially allowed, different crew members mention at least one dog and one parrot lived on board <i>Cassing Young</i> for a time during the Second World War. Interestingly, when crew members were asked about any dogs on board the ship some fifty years later, some swore the never saw or knew of a dog ever being on the ship while others vividly remembered having dog named &quot;Bogey.&quot; Photographs and an archival Navy film suggest there indeed was a small dog on board.</p>",
+					title : "Entertainment, Games, &amp; Pets",
+					subtitle : "Fantail of the Ship.",
+					menuImage : "images/menuItems/FanTail_LIFE.jpg",
+					marker : {lat: 42.371704782014206, lng: -71.0538614820689},
+					images : [
+					{
+						src:"images/slideshows/lifeAboard/fantail/unknown-Bogey.jpg",
+							caption:"Secret mascot and pet aboard USS <i>Cassin Young</i> in 1945.",
+							altText:""
+					},
+						{
+							src:"images/slideshows/lifeAboard/fantail/Jack_Surre-PICT0043.jpg",
+							caption:"Boxing match on the fantail. Courtesy of crew member Jack Surre, 1957-1959, Machinist Mate 3rd Class.",
+							altText:""
+						},
+						{
+							src:"images/slideshows/lifeAboard/fantail/Jack_Surre-PICT0177.jpg",
+							caption:"Haircuts on the fantail. Courtesy of crew member Jack Surre, 1957-1959, Machinist Mate 3rd Class.",
+							altText:""
+						},
+						{
+							src:"images/slideshows/lifeAboard/fantail/Jack_Surre-PICT0180.jpg",
+							caption:"Courtesy of crew member Jack Surre, 1957-1959, Machinist Mate 3rd Class.",
+							altText:""
+						}
+					
+					],
+					audio : [
+						{
+							id:"Finnegan_LIFE_Mascots",
+							src:"audio/lifeAboard/Fantail/George_T_Finnegan_LIFE_Mascots.mp3",
+							title:"Ship Mascots - Ens. George T. Finnegan, Navigator, 1944-1946",
+							transcript:"<span class=transcription data-start=0 data-end=10.7>Finnegan: The two items we had the were rather unique was the parrot, I forget what we called the parrot, and the other one was Bogey they little white terrier dog we picked up. </span><span class=transcription data-start=10.8 data-end=16.7>The parrot came first. My memory fails me on where we picked that parrot up. </span><span class=transcription data-start=16.8 data-end=22.3>But it was before Okinawa. And the Chief he picked up this parrot. </span><span class=transcription data-start=22.5 data-end=36.7>In those days we were just doing screening duty for the fleet and it wasn&apos;t very interesting because you didn&apos;t have the contacts and the fighting all the time, you're just looking for submarines and never finding any. </span><span class=transcription data-start=36.8 data-end=41.6>And during those times the Chief set about the task of teaching the parrot to talk. </span><span class=transcription data-start=42.6 data-end=45.1>And the parrot just didn&apos;t catch on. </span><span class=transcription data-start=45.2 data-end=52.1>And the Chief had a 1st Class mate. My god he must have been about 6 foot 2 and he was solid muscle. </span><span class=transcription data-start=52.2 data-end=56.4>But he was the chief&apos;s right hand man the two of them went together all the time. </span><span class=transcription data-start=56.5 end=63.0>And they used to sit there up by the folks. And be sitting there as the ship would be steaming through the water up there. </span><span class=transcription data-start=63.1 data-end=72.7>On nice day they would be sitting there with the Chief with this parrot on his shoulder. And he&apos;s looking over at the parrot and he sitting there with his face about 2 inches from the parrot. </span><span class=transcription data-start=72.8 data-end=81.6>And the parrots looking right at him and he&apos;s looking right at the parrot about 2 inches away and he&apos;s saying HELLO PARROT [slowly]. </span><span class=transcription data-start=81.7 data-end=84.2>And of course the parrot would just start at him, ya know? </span><span class=transcription data-start=84.3 data-end=85.7>And this would go on for hours. </span><span class=transcription data-start=85.8 data-end=93.2>And it was really was a funny, it was a funny performance. To see this fella tryin&apos;, this rough, tough, Chief Bozen mate trying to teach the parrot. </span><span class=transcription data-start=93.3 data-end=97.5>But no one laughed. Because even though it was funny. We would laugh up in the bridge. </span><span class=transcription data-start=97.6 data-end=103.9>But anyone down around with them. Any of the deck hands that laughed had to face the fury of this Bosun&apos;s Mate helping with the Chief, you know? </span><span class=transcription data-start=104.0 data-end=106.8>Then he would just take them right off the deck and toss them off. </span><span class=transcription data-start=106.9 data-end=114.8>Everybody respected the Chief&apos;s efforts to teach this parrot to talk. It became part of the ship&apos;s lore. When was the parrot going to talk? </span><span class=transcription data-start=115.8 data-end=127.3>They were in fact, as I recall, placing bets on it and things. You had nothing to do at sea and you figure you&apos;d have pools when the parrot, what day the parrot would talk, what hour the parrot would talk. </span><span class=transcription data-start=127.5 data-end=139.5>Well as we were underway there came a time whenever the occasion arose for planes, a tow plane, a sleve plane, to be able to be in the area. </span><span class=transcription data-start=139.6 data-end=144.8>They always sent it out to give us anti-aircraft practice. </span><span class=transcription data-start=144.9 data-end=148.2>I remember the one time, the first time the parrot was aboard. </span><span class=transcription data-start=148.3 data-end=157.9>The screening plane came along, of course the plane streamed its sleeve. And there is nothing worse, more violent than the clap of a 5 inch gun. </span><span class=transcription data-start=157.9 data-end=162.8>It just, it rocks you, unless you got used to it. I never got used to it. </span><span class=transcription data-start=162.9 data-end=168.3>It&apos;s a tremendous clap. It just hurts, it hurts your ears to hear it. </span><span class=transcription data-start=168.4 data-end=173.0>Of course the parrot had never heard anything on the island it had been on. </span><span class=transcription data-start=173.1 data-end=186.3>It&apos;s sitting there on the Chief&apos;s shoulder. Of course in these sleeve exercises the crew, the deck crew, used to just sit around and razz the Gunnery force. </span><span class=transcription data-start=186.4 data-end=195.0>Because it was all 5 inch mounts. Sure enough the sleeve came up the side and he&apos;s waiting. </span><span class=transcription data-start=195.1 data-end=201.2>And word came over the speaker, &quot;Stand By, coming on the range, coming on the range, commence firing&quot; </span><span class=transcription data-start=201.3 data-end=207.7>Of course then we waited for the first clap. That was always the worst one because after they started firing you became used to it. </span><span class=transcription data-start=207.7 data-end=213.4>Of course the parrot is sitting there blinking lazily on the Chief&apos;s shoulder when the first 5 inch went off. </span><span class=transcription data-start=213.5 data-end=221.1>And the whole ship jumped and the parrot of course wasn&apos;t even about to stay close to anything like that. </span><span class=transcription data-start=221.2 data-end=225.5>Never heard it before. Off he went flying over the ocean, like mad. </span><span class=transcription data-start=225.6 data-end=236.9>Not only was he flying like mad directly away from the ship into nowhere, but while he was flying he was screaming. Ywaking away as he went flying from the ship. </span><span class=transcription data-start=237.0 data-end=250.7>Of course the Chief is just completely upset and he&apos;s just screaming at the parrot to come back, ya know, and behind him this big Bozen mate, this big brute is just beating him on the back saying &quot;ayyy it&apos;s talking, it&apos;s talking, it&apos;s talking!&quot; </span></span><span class=transcription data-start=250.7 data-end=259.8>So the last we saw of the parrot as it grew dimmer and dimmer on the horizon but you could still hear it screaming away and the fella was just delighted because the parrot had finally talked. </span><span class=transcription data-start=261.4 data-end=267.1>The other mascot we had was longer term and we called him bogey. </span><span class=transcription data-start=267.2 data-end=273.4>And he was a little white terrier. I have a picture of him here that I&apos;ll get to you. </span><span class=transcription data-start=274.5 data-end=283.4>As I recall we picked him after we were down being repaired and got the fox&apos;s mast on down there. </span><span class=transcription data-start=283.5 data-end=288.9>We spent some time being repaired it was a period of a couple of weeks if more. </span><span class=transcription data-start=290.0 data-end=296.2>Of course all during that time the idea is relax the crew and send them to shore and just give it as good of a time as you could. </span><span class=transcription data-start=297.9 data-end=304.4>During that time the picked up Bogey. Bogey was a little white terrier, God knows where he came from.God knows what pedigree he was. </span><span class=transcription data-start=304.5 data-end=309.1>But he was about 4-5 inches tall and really a cute little dog. </span><span class=transcription data-start=310.1 data-end=315.7>And bogey became a real pal of everyone aboard the ship. They&apos;s be just delighted with him. </span><span class=transcription data-start=315.9 data-end=323.6>But Bogey had a problem, because his feet were so small, his legs were so short that he couldn&apos;t climb any of the steel ladders. </span><span class=transcription data-start=323.7 data-end=329.5>So unless someone carried him up and down he was always on the main deck. </span><span class=transcription data-start=330.4 data-end=337.8>They had a place for him to sleep there and everything else because while we were down there being repaid of course it was very quiet and everything else. </span><span class=transcription data-start=337.9 data-end=345.5>So Bogey was living the life when we finally went back up to the Buckner Bay Incident. </span><span class=transcription data-start=346.0 data-end=357.5>When we opened fire the night of the Buckner Bay Incident, that was the first time we had opened fire when Bogey was aboard. </span><span class=transcription data-start=357.6 data-end=362.5>A somewhat similar thing happened to Bogey that happened to the parrot. </span><span class=transcription data-start=362.6 data-end=368.5>After we got through with the damage and everything. </span><span class=transcription data-start=368.6 data-end=376.2>We were just cleaning up, I remember everyone was concerned where was Bogey, because they couldn&apos;t find him. Everybody was running all over the main deck where he had been. </span><span class=transcription data-start=376.3 data-end=381.6>And they were looking down. They were trying to figure out if he had been carried down into the fire room or whatever. </span><span class=transcription data-start=381.7 data-end=386.8>And they couldn&apos;t find Bogey and he finally ended up, they found him up in the Captain&apos;s bridge. </span><span class=transcription data-start=386.9 data-end=397.0>Way up on the main deck where the captain was, huddled down back aft there by the signal bags. </span><span class=transcription data-start=397.1 data-end=403.0>Which means, I thought it was three ladders he would have had to climb, but I see now today that it was just two ladders. </span><span class=transcription data-start=403.1 data-end=407.5>But they were long ladders. And that was the most remarkable thing after we had sort of relaxed. </span><span class=transcription data-start=407.9 data-end=416.8>After that tragedy at Buckner Bay was the question went around of how in the world Bogey ever made those two ladders. </span><span class=transcription data-start=416.9 data-end=421.7>But I got a feeling that once those guns started to go off, Bogey figured boy he just had to get out of there. </span><span class=transcription data-start=421.8 data-end=428.3>And they only way he could see to go was up. He made the ladders. He made it all the way as high as he could go but there was just no place else to go.</span>"
+						},	
+						{
+							id:"Tripi-Taitt_LIFE_Movies",
+							src:"audio/lifeAboard/Fantail/Charles_Tripi-Gene_Taitt_LIFE_Movies.mp3",
+							title:"Movies on Board - Charles Tripi, Eugene Taitt",
+							transcript:"<span class=transcription data-start=.8 data-end=7.5> Interviewer: Seems like almost every ship, you hear the stories of movies and getting various movies, what was it like for you Charles?</span><span class=transcription data-start=7.6 data-end=12.5> Charles: Well I was a movie operator, and we carried a compliment of movies on board</span><span class=transcription data-start=12.9 data-end=14.8> Did you show movies Gene? Gene: Yeah. Charles: Yeah </span><span class=transcription data-start=15.1 data-end=18.2> How many movies did you keep on board at all times? Three of four?</span><span class=transcription data-start=19.2 data-end=21.2> Gene: Yeah, about that. Not too many.</span><span class=transcription data-start=21.5 data-end=26.4> Charles: Well here&apos;s what would happen, and Gene could probably tell this story too, but,</span><span class=transcription data-start=26.8 data-end=31.6> With me, when I showed movies, we had these three movies that we had on board</span><span class=transcription data-start=32.5 data-end=35> That the ship had, that the ships&apos; crew hadn&apos;t seen yet.</span><span class=transcription data-start=35.7 data-end=40.8> Now of course we could only show movies when we were in port, we didn&apos;t have any facilities for showing movies underway.</span><span class=transcription data-start=42.1 data-end=48.2> So when we arrived in port, there was always a movie ship, movie exchange ship</span><span class=transcription data-start=49.1 data-end=53.4> So I would take one of our worst movies, with the motor whale boat</span><span class=transcription data-start=54.2 data-end=58.6> over to the movie exchange ship and I would try to dicker that movie for one of the better ones.</span><span class=transcription data-start=59.9 data-end=65.3> And it was difficult (all chuckle) Gene: It was a battle Charles: Because everybody was after the same thing. Gene: Yeah.</span><span class=transcription data-start=65.4 data-end=68.9> Charles: So then I would take the movies back to the ship</span><span class=transcription data-start=69.1 data-end=74> and show them, then, and then rewind them, and then the next day take them back again and try to dicker for another one</span><span class=transcription data-start=74.1 data-end=78.6> But we always had a compliment of three to four movies on board, and, </span><span class=transcription data-start=79.2 data-end=81.7> We didn&apos;t show movies too often really...</span><span class=transcription data-start=82.9 data-end=83.8> Interviewer: Where were they shown?</span><span class=transcription data-start=84.4 data-end=90> Charles: They were shown on, on the, o&apos;c&apos;sle [forecastle; bow of ship] Gene: We showed ours on the fantail. </span><span class=transcription data-start=90.2 data-end=96.4> Charles: Well, we, normally showed them on the fo&apos;c&apos;sle, there were times we showed then on the fantail, but here&apos;s what we did.</span><span class=transcription data-start=97.3 data-end=101.1> We would pull alongside another Destroyer and tie up</span><span class=transcription data-start=101.7 data-end=104.0> We would put the movie screen between the two Destroyers</span><span class=transcription data-start=105.6 data-end=110.3> He would take the odd number of films and I would take the even number of films</span><span class=transcription data-start=111.2 data-end=117.1> See? Now he, he would start the movie, now I would set my projector and have it ready to go</span><span class=transcription data-start=117.9 data-end=124.9> Now as soon as I saw the cue marks, the first cue mark that I saw on the corner, I would turn my machine on but I wouldn&apos;t turn the light on</span><span class=transcription data-start=125.8 data-end=132.2> Now as soon as we, hit the second cue mark, he would turn his light off and I would turn mine on, that way we would have</span><span class=transcription data-start=132.7 data-end=135.2> a continuous movie without waiting to change reels</span><span class=transcription data-start=135.7 data-end=140.5> That&apos;s why we showed them on the... bow so frequently.</span><span class=transcription data-start=141.5 data-end=146.4> Gene: I do recall, the guys sayin&apos; before I came aboard</span><span class=transcription data-start=146.5 data-end=150.9> oh, they must have had one movie they must have showed it for like a month straight (chuckles)</span><span class=transcription data-start=151.3 data-end=153.3> Everybody was very upset, I know.</span><span class=transcription data-start=153.9 data-end=159.5> Well you know between the food and the sleeping quarters and everything like that, you had to have some kind of entertainment</span><span class=transcription data-start=160.8 data-end=164.7> Interviewer: I guess it was the electrician&apos;s job to get the hassle about the bad movies. Gene: Yeah."
+						},
+						{
+							id:"Marra_LIFE_Fantail",
+							src:"audio/lifeAboard/Fantail/Anthony_Marra_LIFE_movies.mp3",
+							title:"Recreation at Sea - Anthony Marra, Damage Controlman 2nd Class, 1955-1958",
+							transcript:"<span class=transcription data-start=0.25 data-end=8.75>Interviewer: When you were at sea on Cassin Young, were there any recreational...activities available to the crew members? Television, movies, games&mdash;</span><span class=transcription data-start=8.75 data-end=14>Marra: We didn&apos;t pick up television at sea. We couldn&apos;t get it. But we had movies every night. </span><span class=transcription data-start=14 data-end=15.25>Interviewer: Where were they shown? </span><span class=transcription data-start=15.25 data-end=22.5>If it was a good day it&apos;d be...on the fantail. And the screen would be the side of the gun mount up there. </span><span class=transcription data-start=22.5 data-end=25>During the winter it would be in the mess hall...</span><span class=transcription data-start=25 data-end=28.5>downstairs, down below. They&apos;d have a screen and everything. </span><span class=transcription data-start=28.5 data-end=34.5>And there&apos;d be&mdash;I wouldn&apos;t exaggerate&mdash;50 or 60 guys jammed in there watching a movie. </span><span class=transcription data-start=34.5 data-end=36.75>Interviewer: Every night they had a movie? </span><span class=transcription data-start=36.75 data-end=38.5>Marra: Yeah. Interviewer: When you&apos;re at sea? Marra: Yeah.</span><span class=transcription data-start=38.5 data-end=41.5>Marra: Sometimes it was the same movie three, four nights in a row. </span><span class=transcription data-start=42.25 data-end=47>There was bad weather we couldn&apos;t get alongside another ship to, you know, swap movies with them. </span><span class=transcription data-start=47 data-end=51.5>When we pulled out they would take...I guess they were allowed to take 5 movies. </span><span class=transcription data-start=51.5 data-end=55.5>Out at sea we would transfer movies with other ships, </span><span class=transcription data-start=55.5 data-end=59>And sometimes we&apos;d transfer one and get the same one back. </span><span class=transcription data-start=59 data-end=63>If we couldn&apos;t do it, we&apos;d see the same movies, four, five days in a row.</span>"
+						},
+
+					],
+					people : []
+				}
+			]
+		},
+		{
+			id : "ops",
+			introText : "<p>Naval ships are 24-hour operations. Not only must they maintain a constant state of readiness, they must also constantly ensure the ship is in good, safe, working order. As a piece of technology that pushed the limits of engineering for the day, the ship could easily break down, lose power, or even cap-size. When not at battle stations or on shore liberty, every crew member and officer had jobs that had to get done day-in and day-out.</p><p>On this thread, listen to the daily routines and responsibilities of each division and department on the ship.</p>",
+			threadColor : "C9824A",
+			title : "Operating at Sea",
+			subtitle : "USS <i>Cassin Young</i> Underway in War &amp; in Peace",
+			path : [],
+			menuImage : "images/menuItems/operating_sea.jpg",
+			stops : [
+				{
+					id : "wardroom",
+					introText : "<p>The Navy, like all military organizations, relies on a chain of command. On each ship, the Commanding Officer is responsible for all the ship&apos;s operations within the larger naval fleet. Here, he would sit at the head of the table. Under him, the Executive Officer, or &quot;XO&quot; acts as the Captain&apos;s second in command and personnel officer. He typically sat to the right of the Captain here in the wardroom. Below these two officers, the junior officers that sat around this table. Each officer served as the heads of several divisions and departments within the ship. Each division had a vital role. One could not function without any of the others. From running the engines to filling out paperwork, every division had a critical role to support the entire operations of a single ship.</p><p>From here in the wardroom, meetings determined issues that needed attention and plans of action for the coming days were developed and executed. In addition to their departmental responsibilities, most junior officers also stood watch as Officers of the Deck on the Bridge. Though this is where the officers enjoyed special privileges of rank, it is also where they felt the burden and responsibilities of being commissioned officers.</p>",
+					title : "Officers: Heads of the Ship&apos;s Operations",
+					subtitle : "Wardroom &amp; Captain&apos;s Cabin",
+					menuImage : "images/menuItems/Officers_OPS.jpg",
+					marker : {lat: 42.37235088360841, lng: -71.05460902210325},
+					images : [
+					/*
+						{
+							src:"images/slideshows/operations/officers/John_Hooper-Wardroom_Ceremonies.jpg",
+							caption:"",
+							altText:""
+						},*/
+						{
+							src:"images/slideshows/operations/officers/BOSTC-1956MedCruiseBook_OOD-OpenBridge.jpg",
+							caption:"Officer of the Deck (OOD) on the Open Bridge. USS <i>Cassin Young</i> Cruise Book, 1956.",
+							altText:""
+						},
+						{
+							src:"images/slideshows/operations/officers/BOSTC-1956MedCruiseBook_SignalBridge.jpg",
+							caption:"Officers on the Signal Bridge. Man on right is Lieut. Cdr. Lawrence A. Kempf, Executive Officer. USS <i>Cassin Young</i> Cruise Book, 1953.",
+							altText:""
+						},
+						{
+							src:"images/slideshows/operations/officers/maybe-NARA-Wardroom_recommissioning.jpg",
+							caption:"Recommissioning ceremony in the Wardroom, Ca. 1951. Mrs. Young is center in white dress.",
+							altText:""
+						}
+					],
+					audio : [
+						{
+							id:"Rudden_OPS_CO",
+							src:"audio/operations/Wardroom/Thomas_Rudden_OPS_CO.mp3",
+							title:"Captain Thomas Rudden, Commanding Officer, 1952-1954",
+							transcript:"<span class=transcription data-start=1.2 data-end=6.4> It&apos;s not a typical day. Some days you&apos;ll be engaged in exercises with other ships.</span><span class=transcription data-start=6.9 data-end=9.9> Some days you&apos;ll be exercising your own ship alone. </span><span class=transcription data-start=10.8 data-end=14.6> Some days you&apos;ll be doing nothing but steaming from one point to another. </span><span class=transcription data-start=15.5 data-end=21.7> If you are in a very intensive exercise mode, like, operating with other ships,</span><span class=transcription data-start=22.5 data-end=25.7> Captain might not go to sleep at all, he might stay awake for 28 hours, </span><span class=transcription data-start=26.3 data-end=28.3> whatever, or nap in his bridge chair. </span><span class=transcription data-start=28.6 data-end=34> If he lies down and goes to sleep, he goes to sleep that&apos;s his prerogative after all he&apos;s still responsible for the ship. </span><span class=transcription data-start=34.6 data-end=39.7> When the ship was singly occupied in exercises</span><span class=transcription data-start=40.1 data-end=46.6> you would let the people responsible conduct the exercises, on the ship, but just sorta keep your fingers on the pulse. </span><span class=transcription data-start=47.1 data-end=49.8> so you&apos;d know what was going on and how well they were doing</span><span class=transcription data-start=50.6 data-end=56.7> When you had inter-ship exercises between two ships or so, then you always kept right on top of that.</span><span class=transcription data-start=58 data-end=63.5>Because that was the real measure of how good you were. But all in all it&apos;s great fun.</span>"
+						},
+						{
+							id:"Jones_OPS_XO",
+							src:"audio/operations/Wardroom/Paul_Jones_OPS_XO.mp3",
+							title:"Second in Command: the &quot;XO&quot; - Lieutenant Paul M. Jones, Executive Officer, 1944-1945",
+							transcript:"<span class=transcription data-start=0 data-end=4.6>Jones: The duty of the Executive Officers are to carry out the orders of the Captain. </span><span class=transcription data-start=4.7 data-end=11.6>The Captain of course is in charge of attacking and the rest of the ship. </span><span class=transcription data-start=11.7 data-end=32.5>And it&apos;s up the the executive officers had an combination of duties from policemen, a priest as confessor, a mother for taking care of a kid that may be homesick. </span><span class=transcription data-start=32.5 data-end=37.3>A father for punishing a kid for doing something he shouldn&apos;t do. </span><span class=transcription data-start=37.4 data-end=44.5>We were supposed to act like the father image for all the kids. </span><span class=transcription data-start=44.6 data-end=48.7>And we were busy all the time we always had a job to do. </span><span class=transcription data-start=48.8 data-end=53.1>At our stations we were there a number of times (he mumbled all of this I have no idea what he truly said)</span><span class=transcription data-start=53.2 data-end=59.0>But 90% of the time I&apos;m stationed on general quarters.</span><span class=transcription data-start=59.1 data-end=64.8>You had personal hours that way and at that time you talked to the people around you.</span>"
+						},
+						{
+							id:"Finnegan_OPS_wardroom",
+							src:"audio/operations/Wardroom/George_T_Finnegan_OPS_Duties.mp3",
+							title:"Duties of an Officer - Ens. George T. Finnegan, Navigator, 1944-1946",
+							transcript:"<span class=transcription data-start=0.1 data-end=7.5>Well when I came aboard&mdash;I&mdash;it just so happened that Captain Ailes was the only regular Navy officer aboard. </span><span class=transcription data-start=7.5 data-end=15>Bob Fallardeau and I came aboard together from the Naval Academy as ensigns and we were the only other two regular Navy aboard. </span><span class=transcription data-start=15 data-end=20>Fallardeau was put in Gunnery right away, and I was...served as Navigator. </span><span class=transcription data-start=20 data-end=27.5>I was assistant Gunnery officer during General quarters while the ship was fighting, and then to the extent they need any help in Engineering I did engineering work too.</span><span class=transcription data-start=27.5 data-end=33.5>So I sort of served in the three positions: Navigator, Assistant Engineering Officer, and Assistant Gunnery Officer.</span><span class=transcription data-start=33.5 data-end=36.25>Interviewer: Sounds like you had very extensive duties.</span><span class=transcription data-start=36.25 data-end=40>Finnegan: Well no, not, not particularly. The principal duty was navigation. </span><span class=transcription data-start=40 data-end=46>Since we were coming out of the Naval Academy we were pretty well trained in all of these areas of the ship, </span><span class=transcription data-start=46 data-end=53.25>while with the Reserve officer[s] aboard they would necessarily train principally in one particular field of the ship&apos;s operations. </span><span class=transcription data-start=53.25 data-end=58>Ailes used us&mdash;used Fallardeau and myself to fill in everywhere.</span>"
+						},
+					],
+					people : []
+				},
+				{
+					id : "fwd_passageway",
+					introText : "<p>Here you stand before the ship&apos;s informational nerve center: CIC, or, Combat Information Center. It is the heart of what comprises four levels of vital operational and communications spaces.</p><p>Above you on the next level is Radio Central and the Chart Room. Inside Radio Central, sensitive cryptographic information is decoded while practical communications between ships and aircraft are given and received by Morse code and voice. In the Chart Room, the ship&apos;s navigator plots the course of the ship and ensures they avoid hazardous waters.</p><p>On the next deck above is the Bridge and the Sonar Room. The Bridge serves as the operational center of command, where the Commanding Officer or the designated Officer of the Deck issue orders. Inside the Sonar Room, technicians constantly screen for underwater threats from submarines.</p><p>Immediately below you on the next deck is IC (Internal Communications) and Plot. This compartment houses the most vital and technologically advanced equipment on the entire ship: All internal communication and alarm circuits, the ship&apos;s gyroscopic compass, and the Mark 1A naval gun targeting computer.</p><p>Inside CIC itself are Radar operating stations, charts, and circuits to all the other operations and communications stations. The Combat Information Center takes in all sightings from lookouts, radar, and sonar stations, all communications coming from inside and outside the ship, and all navigational data about the course and speed of the ship. With this data, the CIC crew filters and evaluates everything happening around them and disseminates the information to the Bridge and the Commanding Officer, giving a real-time picture of everything happening relative to the ship.</p><p>Under Fire, in rough seas, along other ships, or completely alone, this &quot;stack&quot; of operation and communication stations required a great deal of determination and skill.</p>",
+					title : "The Nerve Center: Bridge, Radio Central, Sonar, CIC, and IC &amp; Plot",
+					subtitle : "CIC, Forward Passageway",
+					menuImage : "images/menuItems/CIC_OPS.jpg",
+					marker : {lat: 42.37231719700927, lng: -71.054566106759},
+					images : [
+						{
+							src:"images/slideshows/operations/CIC/BOSTC3075_OI_CIC.jpg",
+							caption:"Combat Information Center onboard USS <i>Cassin Young</i>. USS <i>Cassin Young</i> Cruise Book, 1956-57.",
+							altText:"Black and white image of the Combat Information Center. In this image there are three crew members who are carrying out duties related to the CIC. One sailor has headsets on, with a microphone in his left hand. Another sailor is writing with a pencil and paper, while the third is leaning on the plotter desk. In the background there is a US Navy clock providing the time."
+						},
+						{
+							src:"images/slideshows/operations/CIC/BOSTC-1956MedCruiseBook_CIC.jpg",
+							caption:"Combat Information Center. USS <i>Cassin Young</i> Cruise Book, 1956.",
+							altText:""
+						},
+						{
+							src:"images/slideshows/operations/CIC/BOSTC-1953MedCruiseBook_Pilothouse-Helmsman.jpg",
+							caption:"Helmsman at his station in the Pilothouse, 2 decks above CIC. USS <i>Cassin Young</i> Cruise Book, 1953.",
+							altText:""
+						},
+						{
+							src:"images/slideshows/operations/CIC/BOSTC3075_BackAtSea_Bridge.jpg",
+							caption:"&quot;Remain within visual signalling distance&quot; - Signalmen working on Bridge USS <i>Cassin Young</i> Cruise Book, 1956-57.",
+							altText:"Black and white image of three sailors on the bridge of the ship. The sailors are conducting activities with regards to communications with other vessels by signal lamp and signal flags. One sailor is standing next to the signal lamp and is preparing to send messages."
+						}
+					],
+					audio : [
+						{
+							id:"Jones_OPS_CIC",
+							src:"audio/operations/Bridge-CIC-IC/Paul_Jones_OPS_XO-CIC.mp3",
+							title:"CIC during World War II - Lieutenant Paul M. Jones, Executive Officer, 1944-1945",
+							transcript:"<span class=transcription data-start=0 data-end=6.2>Paul Jones: In combat, the executive officer was in charge of Combat Information Center, called CIC.</span><span class=transcription data-start=6.21 data-end=9.56>During battle, as far as we were concerned,</span><span class=transcription data-start=9.56 data-end=12.45>the most important job of the ship was CIC.</span><span class=transcription data-start=12.45 data-end=21>There was serious debate...during the end of the war there, as to whether the Captain should be in the CIC and the Exec on the bridge.</span><span class=transcription data-start=21 data-end=23.47>Because everything happened from CIC.</span><span class=transcription data-start=23.47 data-end=33.25> Now, in Combat Information Center, we have about, I would say, twelve to fifteen short wave circuits...internal within the ship.</span><span class=transcription data-start=33.25 data-end=45.3>One man is wearing...phones from the lookouts, one man is manning phones from the gun, one man is from manning phones to the bridge, and so forth...</span><span class=transcription data-start=45.35 data-end=50>We have constant input from what&apos;s going on internally within the ship. </span><span class=transcription data-start=50 data-end=54.3>In the latter part of the war, when we were radar picket, </span><span class=transcription data-start=54.3 data-end=66.27>we had a nucleus crew of three trained radar technicians and radar evaluators aboard.</span><span class=transcription data-start=66.27 data-end=74.00> And...then our own crew...for operating the Combat Information Center.</span><span class=transcription data-start=74.00 data-end=83.3>And as our station in Okinawa, for example, was 50 miles north of the beach head, which was directly in line with Japan, </span><span class=transcription data-start=83.4 data-end=89.3> and at that point, we always had fifteen planes under our direct control.</span><span class=transcription data-start=89.3 data-end=93.4>There were five, what was called CAP (Combat Air Patrol).</span><span class=transcription data-start=93.4 data-end=99.2> And as soon as we got the attack, it was our duty, and of course as executive officer</span><span class=transcription data-start=99.2 data-end=107.5>was usually the one, if you get combat, the executive officer is the one that actually picks up the mic and directs the action</span><span class=transcription data-start=107.5 data-end=112.0> This is all by radar&mdash;this is&mdash;the Combat Information Center is all in a closed room and so forth. </span><span class=transcription data-start=112.0 data-end=116.4> and we are dealing with radar and of course was very primitive </span><span class=transcription data-start=116.4 data-end=122.3> But we couldn&apos;t...we had no way of telling altitude, for example, on the radar. </span><span class=transcription data-start=122.3 data-end=125.23> We would what we call &quot;stack&quot; our planes</span><span class=transcription data-start=125.3 data-end=129.8> We would have several at 10,000, 15, and 20,000 feet</span><span class=transcription data-start=129.8 data-end=135.0> So that we knew exactly what direction the enemy was in and how far </span><span class=transcription data-start=135.0 data-end=139.0> And then we would send them off and the planes could tell how high it was.</span>"
+						},
+						{
+							id:"Marrs-OPS-Bridge",
+							src:"audio/operations/Bridge-CIC-IC/James Marrs_OPS_Bridge.mp3",
+							title:"The Bridge at General Quarters - James Marrs,  Quartermaster 1st Class, 1944-45",
+							transcript:"<span class=transcription data-start=.5 data-end=3.8> Interviewer: So how many folks are inside the pilothouse and how many were on the outside? </span><span class=transcription data-start=3.8 data-end=7.1>  Marrs: &mdash;Well let&apos;s see, the Captain would be there and the Captain&apos;s phone talker. </span><span class=transcription data-start=7.1 data-end=11.7>  And he can be anywhere&mdash;he&apos;s usually [on the] forward part of the bridge from one side to the other. </span><span class=transcription data-start=11.8 data-end=20.9> And there would be up at that time they have the two forward 40 millimeter guns and the 40 millimeter director and up in each corner of the bridge. Two guys on that. </span><span class=transcription data-start=21.1 data-end=26.0> Inside you would have the helmsmen and the engine order telegraph man.</span><span class=transcription data-start=26 data-end=30.6> And the junior officer of the deck might be in there. The officer of the deck [&quot;OOD&quot;], he can be anywhere.</span><span class=transcription data-start=31.0 data-end=38.2> Usually he might be back on the other side from the Captain because the Captain is conning the ship at that time. And the officer of the deck is not responsible. </span><span class=transcription data-start=38.8 data-end=45.8>Back in the...there would be a Soundman in the sound shack. One or two of them depending on how many they had. </span><span class=transcription data-start=45.9 data-end=49.4> Then back aft we had the Torpedomen. </span><span class=transcription data-start=49.5 data-end=54.3>There was the torpedo officer because they had the torpedo directors on the after corners of the bridge. </span><span class=transcription data-start=54.3 data-end=61.0>Then we had three Signalmen that were&mdash;would be aft on the bridge where the flag bags were, at general quarters. </span><span class=transcription data-start=61.4 data-end=69.7> And then you&apos;d have the Quartermaster watch who was around. That was my job at general quarters and you were just around the whole bridge. </span><span class=transcription data-start=69.8 data-end=74.4>The main thing you did on the General Quarters like that was to keep the log. Running the ship&apos;s log. </span><span class=transcription data-start=75.4 data-end=78.7> At the direction of the Officer of the Deck or the Captain. And assist in the navigation.</span><span class=transcription data-start=78.9 data-end=84.1> You didn&apos;t have one spot to be in like, the helmsmen the engine order telegraph and these other people had one place to be.</span><span class=transcription data-start=84.2 data-end=89.5> So up on that Bridge level up above there was a lot of people. And that was the thing, when the destroyer gets hit somebody was gonna get hurt.</span><span class=transcription data-start=89.5 data-end=90.1>Interviewer: Sure...</span>"
+						},
+						{
+							id:"MacDougal_OPS_OOD",
+							src:"audio/operations/Bridge-CIC-IC/Gary_MacDougal_OPS_OOD-Bridge.mp3",
+							title:"Officer of the Deck Duties - Ensign Gary MacDougal, Chief Engineer, 1958-1960",
+							transcript:"<span class=transcription data-start=.5 data-end=3.25>Interviewer: You said you were the Deck Officer and that was one of your duties?</span><span class=transcription data-start=3.25 data-end=5.75>MacDougal: I was an qualified officer of the deck.</span><span class=transcription data-start=5.75 data-end=9>See, there were only 13 officers&mdash;one of whom was the supply officer&mdash;</span><span class=transcription data-start=9 data-end=14.25>who was not qualified, and then the Captain and the Exec [Executive Officer] did not take regular turns on the deck, </span><span class=transcription data-start=14.25 data-end=19>because the Exec is the navigator, and the captain is up there whenever he needs to be up there. </span><span class=transcription data-start=19 data-end=26>Then there&apos;s usually a group that&apos;s brand new that&apos;s not qualified yet that stand junior officer of the deck duty. </span><span class=transcription data-start=26 data-end=32>But, after you&apos;re&mdash;been there a year or sometimes less you become qualified to be Officer of the Deck. </span><span class=transcription data-start=32 data-end=34.75>So you take your turn in the regular watch order...</span><span class=transcription data-start=34.75 data-end=35.25>...</span><span class=transcription data-start=35.25 data-end=39>Interviewer: And what it means is that you are in  fact in command of the vessel?</span><span class=transcription data-start=40.25 data-end=43.6>MacDougal: It&apos;s a great responsibility&mdash;I mean, I was really impressed by it.</span><span class=transcription data-start=43.6 data-end=50.5>Because at age 22, to have the responsibility for 300 lives, in the middle of the night, the captain is sleeping...</span><span class=transcription data-start=51.5 data-end=55.5>You&apos;re suppose to call him if you get uptight about anything. [Laughs] </span><span class=transcription data-start=55.5 data-end=58>But it&apos;s not a good idea to call him unless you have a good reason to call him. </span><span class=transcription data-start=58 data-end=66>So, you really do have more responsibility than you&apos;re ever likely to get at that age than any other thing I&apos;ve ever heard of.</span>"
+						},
+						{
+							id:"Finnegan_OPS_Navigation",
+							src:"audio/operations/Bridge-CIC-IC/George_T_Finnegan_OPS_Navigation.mp3",
+							title:"Navigating the Ship - Ens. George T. Finnegan, Navigator, 1944-1946",
+							transcript:"</span><span class=transcription data-start=.5 data-end=6.5>Interviewer: What were the sort of general duties, the general things you had to do to navigate the ship?</span><span class=transcription data-start=7.6 data-end=11.5>Finnegan: Well essentially the navigation was in three main sectors. </span><span class=transcription data-start=11.6 data-end=16.1>You took your morning sights within a half hour after dawn</span><span class=transcription data-start=17.0 data-end=22.8>You would go up on the bridge and take your morning star sights and plot your morning position. </span><span class=transcription data-start=22.9 data-end=33.2>Then at noon when the sun would be directly overhead from a longitudinal point of view you would take your latitude position at noon. </span><span class=transcription data-start=33.3 data-end=29.0>That would always give you your latitude, it wouldn&apos;t tell you where longitudinally wise you were but it would always tell you your latitude. </span><span class=transcription data-start=39.4 data-end=48.5>And then in the evening within a half an hour after sunset just before dark you would take your evening star sights. </span><span class=transcription data-start=48.6 data-end=56.6>Now in those days we didn&apos;t have Loran or anything else so it was the morning and evening fixes were the most important things to get.  </span><span class=transcription data-start=56.7 data-end=1.02.9>But it was when you missed one, whether by clouds or otherwise, you missed a morning sight or an evening sight </span><span class=transcription data-start=1.03. data-end=1.11.3>It meant that you were running on a much longer length of time on dead reckoning and without any other navigational aids out there it was always a problem. </span><span class=transcription data-start=1.11.4 data-end=1.13.5>You were never quite sure where you were. </span><span class=transcription data-start=1.13.6 data-end=1.18.7>The charts were never that good especially when you were operating close to shore. </span><span class=transcription data-start=1.18.8 data-end=1.23.6>And by close I mean relatively close anywhere within 10-20 miles. </span><span class=transcription data-start=1.23.8 data-end=1.28.7>Interviwer: Did you have any trouble navigating on your tour of duty on USS Cassin Young?</span><span class=transcription data-start=1.28.8 data-end=1.36.9>Well closest problem we had as far as potential problems concerned was when we made that sweep into the South China Sea.  </span><span class=transcription data-start=1.37.4 data-end=1.43.3>And at that time we were stationed out in what I recall now as something called the Tomcat duty. </span><span class=transcription data-start=1.43.4 data-end=1.45.9>We were sent out, far out, from the fleet. </span><span class=transcription data-start=1.46.1 data-end=1.49.5>To act as a central gathering point for the aircraft. </span><span class=transcription data-start=1.49.6 data-end=1.56.5>In those times you were far out from the fleet you couldn&apos;t exchange information by radio or otherwise. </span><span class=transcription data-start=1.56.6 data-end=1.59.4>It was radio silence and you were operating completely on your own. </span><span class=transcription data-start=1.59.6 data-end=2.06.1>And that period of time in the South China Sea when we were coming up and that was a little bit scary. </span><span class=transcription data-start=2.06.2 data-end=2.12.4>It was completely overcast for days and days at a time and we went for several days without being able to get a start sight. </span><span class=transcription data-start=2.12.5 data-end=2.15.0>So it was completely dead reckoning. </span><span class=transcription data-start=2.15.4 data-end=2.19.9>And I remember Captain A used to come down to the chart room often </span><span class=transcription data-start=2.20.0 data-end=2.23.0>And ask me, &quot;Honestly do you know where we are?&quot; </span><span class=transcription data-start=2.23.1 data-end=>And would tell him, &quot;honestly no I don&apos;t, we are in the South China Sea somewhere.&quot;</span>"
+						},
+						{
+							id:"Tripi_OPS_ICPlot",
+							src:"audio/operations/Charles_Tripi_OPS_ICPlot.mp3",
+							title:"Charles Tripi, Electrician&apos;s Mate 1<sup>st</sup> Class, 1943-1946",
+							transcript:"<span class=transcription data-start=.7 data-end=7.1> The gyro and IC electrician maintained the gyro compass which is an all electric compass.</span><span class=transcription data-start=7.5 data-end=11.7> As well as the control circuits to the fire control equipment</span><span class=transcription data-start=12.5 data-end=20.7> and also to the radar and sonar equipment and maintaining power to the, all the interior communication  systems.</span><span class=transcription data-start=20.9 data-end=26.4> We check for grounds every hour.  And like Gene says, if you had two grounds you&apos;d have a breaker trip.</span><span class=transcription data-start=27.2 data-end=34> In civilian life we have 120 volt systems 3 wire. One leg is purposely grounded</span><span class=transcription data-start=34.3 data-end=39.2> so that if another leg goes aground  it&apos;ll blow the fuse or the circuit breaker, protecting human life.</span><span class=transcription data-start=39.9 data-end=45.6> In the navy, we can&apos;t worry as much about human life as we do in civilian life because</span><span class=transcription data-start=45.8 data-end=48.7> we must maintain circuits to the battle equipment</span><span class=transcription data-start=48.8 data-end=54.8> such as the main battery director or the bridge steering control or possibly the guns.</span><span class=transcription data-start=55 data-end=62.1> So in the navy they purposely have an ungrounded system so that we can maintain power at all times.</span>"
+						}
+					],
+					people : []
+				},
+				{
+					id : "midships_port",
+					introText : "<p>Though a ship built of steel and propelled by steam, <i>Cassin Young</i>, like all Naval ships, still required a crew specializing in traditional seamanship skills. Generally, men seeking or holding the rate of Boatswain&apos;s (or, &quot;Bosuns&quot;) Mates operated the Deck Division. Knot tying and line handling was just the beginning of their knowledge. Virtually anything that was on the main deck that related to seafaring was under their responsibility: from whaleboats to the anchors, and from hi-line transports to the paint on the ship.</p>",
+					title : "Sweepers, Man your Brooms: Deck Division",
+					subtitle : "Port Side",
+					menuImage : "images/menuItems/DeckDiv_OPS.jpg",
+					marker : {lat: 42.372203256907724, lng: -71.05455806013197},
+					images : [
+						{
+							src:"images/slideshows/operations/deck_division/BOSTC1595_Box125-Folder37.jpg",
+							caption:"Crewmember working on ship&apos;s whale boat.",
+							altText:"Working on small boat."
+						},
+						{
+							src:"images/slideshows/operations/deck_division/BOSTC3075_enroutetoMed-bosunstrikers.jpg",
+							caption:"Boatswain&apos;s Mate Strikers honing their knot and line skills on the main deck. USS <i>Cassin Young</i> Cruise Book, 1956-57.",
+							altText:"Working on small boat."
+						},
+						{
+							src:"images/slideshows/operations/deck_division/BOSTC1595_Box125-Folder38.jpg",
+							caption:"Crew of <i>Cassin Young</i> work to refuel the ship.",
+							altText:"Crew of Cassin Young work to refuel the ship."
+						},
+						{
+							src:"images/slideshows/operations/deck_division/BOSTC1664_Box1126-Folder37CY1954.jpg",
+							caption:"Transferring a crew member over the Hi-Line in a &quot;Bosun&apos;s Chair&quot; between DD-689 and <i>Cassin Young</i>",
+							altText:"Hi-Line."
+						}
+						],
+					audio : [
+						{
+							id:"ByrumMelville_OPS_Deck",
+							src:"audio/operations/Deck_Div/Peter_Byrum_OPS_Deck.mp3",
+							title:"Deck Division Duties - Peter Byrum, Boatswain&apos;s Mate, 1943-1945",
+							transcript:"<span class='transcription'  data-start=0 data-end=2.5>I was senior boatswain&apos;s mate in the second division</span><span class='transcription'  data-start=2.5 data-end=8>and was responsible for upkeep, maintenance of the main decks, all boats and rigging.</span><span class='transcription'  data-start=8 data-end=16> We were responsible for fueling at sea, lowering and hoisting boats, receiving visitors on board at sea and in port.</span><span class='transcription'  data-start=16 data-end=19>The ship&apos;s work was mainly maintenance.</span><span class='transcription'  data-start=19 data-end=26>There&apos;s no such thing as not having work to do on board ship. You never have enough time to do all the work.</span><span class='transcription'  data-start=26 data-end=30>If the weather don&apos;t permit painting, well then you have other work like</span><span class='transcription' data-start=30 data-end=37>overhauling running and standing rigging and so forth and keeping everything lubricated.</span>"
+						},
+						{
+							id:"ByrumMelville_OPS_BosunWistle",
+							src:"audio/operations/Deck_Div/Byrum-Melville_OPS_BosunCalls.mp3",
+							title:"Commands by Whistle, Peter Byrum, Albert &quot;Al&quot; Melville, &amp; James &quot;Jim&quot; O&apos;Hara, Deck Crew, 1944-1945",
+							transcript:"<span class=transcription data-start=0 data-end=5>Byrum: A boatswain mate can lower and hoist a boat without even saying a word. </span><span class=transcription data-start=5 data-end=6.5>Interviewer: Could you play [something]? </span><span class=transcription data-start=6.5 data-end=8.5>[Shrill sound of bosun pipe played by Byrum] </span><span class=transcription data-start=8.5 data-end=15>Turn to! Top side all the deck force! All: [Chuckling] ...</span><span class=transcription data-start=15 data-end=20>Byrum: So anyway it is a very useful thing and it eliminates a lot of talking. </span><span class=transcription data-start=20 data-end=28>Melville: That call he just gave was an attention call, and that way he could do that in a windy day on board ship, </span><span class=transcription data-start=28 data-end=31.5>he could attract attention&mdash;O&apos;Hara: The shriek of the whistle would carry.&mdash;</span><span class=transcription data-start=31.5 data-end=36.75>Melville: And...aboard ship why they&mdash;of course they had speakers that you would pipe that into</span><span class=transcription data-start=36.75 data-end=41.5> but you could do it out in the open and it would get your attention.</span><span class=transcription data-start=41.5 data-end=45.6>there are several different calls that you would make for different things&mdash;</span><span class=transcription data-start=45.6 data-end=50.75>Byrum: Yeah, like for example now, we use to have the deck winch on the port side [of the ship]</span><span class=transcription data-start=50.75 data-end=60.5>and if we was hoisting a boat on the starboard side&mdash;O'Hara: We needed a wistle&mdash;Byrum: the men on the winches would have to have...some signals, you know,</span><span class=transcription data-start=60.5 data-end=69>and the first signal you&apos;d get your...falls [ropes] hooked onto the boat to hoist the boat you&apos;d go [Shrill sound of bosun pipe played by Byrum] </span><span class=transcription data-start=69 data-end=71>And then they&apos;d start hoisting.</span><span class=transcription data-start=71 data-end=83>Well then you&apos;d watch and when you get it up right where you want it at the right height [Shrill sound of bosun pipe played by Byrum.] They&apos;d hear and they&apos;d...they stop hoisting. </span><span class=transcription data-start=83 data-end=93.5>Well, after they get the boat at the proper height, then they have to take the boat falls&mdash;the ropes&mdash;and make them up on cleats.</span><span class=transcription data-start=93.5 data-end=101.5>So you would give a call [Shrill sound of bosun pipe played by Byrum.] like that, and they would walk it back easy.</span><span class=transcription data-start=101.5 data-end=109.5>Walking it back easy would be, to walk the falls back to give &apos;em enough slack to take turns [wrapping the rope] on these cleats. </span><span class=transcription data-start=109.5 data-end=115>When you seen that they had a couple of turns on there, you would give the word &quot;up behind&quot;</span><span class=transcription data-start=115 data-end=127>[Shrill sound of bosun pipe played by Byrum.] ...or something like that... O&apos;Hara: [Chuckling] Melville: After all these years... O&apos;Hara: I can&apos;t believe it you&apos;re so great! [Chuckling] Byrum: But all this would eliminate any talking.</span><span class=transcription data-start=127 data-end=137>Melville: And you could be around the corner which they were, when we were on board ship, the guy running the winch can&apos;t see what he&apos;s doing at all.</span><span class=transcription data-start=137 data-end=140.5>Interviewer: Uh huh, and this is a standard code?</span><span class=transcription data-start=140.5 data-end=145.5>Melville: Oh yeah, you could go from one ship to the next and accomplish the same thing.</span><span class=transcription data-start=145.5 data-end=151>Byrum: Right in the Blue Jacket&apos;s Manual it gives you all the instructions on how to use the call. Interviewer: Yes </span><span class=transcription data-start=151.5 data-end=158>and when you first start using one, they&apos;d always have you go up in the chain locker, </span><span class=transcription data-start=158 data-end=167>or some distant&mdash;Others: [Chucking]&mdash;Byrum: distant part of the ship where you could use it without interfere with anything going on board the ship.</span>"
+						},
+					
+					],
+					people : []
+				},
+				{
+					id : "engineering",
+					introText : "<p>The largest and perhaps the most vital department of the ship worked largely hidden below the main decks. These emergency override valves and the small hatches straight down below the main deck are the only hints to wehre engineering is located. Spanning across four separate spaces down below, one third of the entire crew aboard the ship was solely dedicated to servicing and operating the ship&apos;s boilers, engines, and auxiliary equipment on a 24-hour basis. In the two fire rooms,  Watertenders (later, Boiler Tenders) controlled the burning of fuel oil to generate steam in the boilers. Each room supplied steam to a corresponding engine room. In engine rooms, Machinist&apos;s Mates handled the steam across turbines to propel the ship at the speed ordered from up on the bridge. Other auxiliary equipment, from pumps to electrical generators, were also driven by the steam. All of this equipment was absolutely vital to keep the ship operational.</p>",
+					title : "Full steam ahead: Engineering Division",
+					subtitle : "Valve controls, Midships, Port-side",
+					menuImage : "images/menuItems/Engineering_OPS.jpg",
+					marker : {lat: 42.372052657499815, lng: -71.05435421224684},
+					images : [
+						{
+							video:"video/Engineering_Chris-Bradford.mp4",
+							thumbnail:"video/Engineering_Chris-Bradford.jpg",
+							caption:"Video of Cassin Young Volunteer Chris Bradford exploring the engineering spaces below the main deck.",
+							altText:""
+						},
+						{
+							src:"images/slideshows/operations/engineering/Jack_Surre-PICT0083.jpg",
+							caption:"&quot;Snipes&quot; below in Engineering at the main controls. Courtesy of crew member Jack Surre, 1957-1959, Machinist Mate 3rd Class.",
+							altText:""
+						},
+						{
+							src:"images/slideshows/operations/engineering/Jack_Surre-PICT0085.jpg",
+							caption:"Another shot of Engineering crew members on watch at the main controls. Courtesy of crew member Jack Surre, 1957-1959, Machinist Mate 3rd Class.",
+							altText:""
+						},
+						{
+							src:"images/slideshows/operations/engineering/BOSTC3075_MDivision.jpg",
+							caption:"&quot;M Division&quot; men at controls of Engineering. USS <i>Cassin Young</i> Cruise Book, 1956-57.",
+							altText:""
+						},
+						{
+							src:"images/slideshows/operations/engineering/BOSTC3075_BackAtSeaSnipes.jpg",
+							caption:"Taking readings in one of the ship&apos;s Fire Rooms. USS <i>Cassin Young</i> Cruise Book, 1956-57.",
+							altText:""
+						}
+					],
+					audio : [
+						{
+							id:"MacDougal_OPS_Engineering",
+							src:"audio/operations/Gary_MacDougal_OPS_Engineering.mp3",
+							title:"Ensign Gary MacDougal, Chief Engineer, 1958-1960",
+							transcript:""
+						},
+					],
+					people : []
+				},
+				/*
+				{
+					id : "sick_bay",
+					introText : "",
+					title : "Health and Fitness: Ship&apos;s Medical Staff",
+					subtitle : "Sick Bay, Midships Passageway.",
+					menuImage : "images/menuItems/SickBay_OPS.jpg",
+					marker : {lat: 42.37211606782083, lng: -71.0543488478288},
+					images : [
+
+					],
+					audio : [
+
+					],
+					people : []
+				},
+								{
+					id : "damage_ctrl",
+					introText : "",
+					title : "Flood, Fire, Collision: Repair and Damage Control",
+					subtitle : "Battery Charge &amp; Repair Lockers, Midships Passageway.",
+					menuImage : "images/menuItems/DmgCtrl_OPS.jpg",
+					marker : {lat:42.37209496717667, lng:-71.05439524166286},
+					images : [
+
+					],
+					audio : [
+
+					],
+					people : []
+				},*/
+				{
+					id : "supply_office",
+					introText : "<p>Food, fuel, ammunition and spare parts all required requisition forms and proper accounting. Personnel files, pay, liberty cards, and mail had to all be processed, filed, and routed. Though <i>Cassin Young</i> is a small ship, it has three cramped offices for handling all the paperwork to make keep the ship running. This office in front of you was the office for the supply division. Here, staff placed and managed the orders for food and a wide range of supplies needed by the crew. The Ship&apos;s office and the Engineering office are elsewhere on the ship, below the main deck just outside of officer&apos;s country. Engineering handled their own stack of reports and requisitions, while the Yeomen of the Ship&apos;s office generated reports, plans of the day, pay stubs, and handled all the mail.</p>",
+					title : "Paperwork Runs the Ship: Supply Div. &amp; Yeomen",
+					subtitle : "Supply Office, Midships Passageway",
+					menuImage : "images/menuItems/Supply_OPS.jpg",
+					marker : {lat: 42.37213192039109, lng: -71.05432470794767},
+					images : [
+							{
+								src:"images/slideshows/operations/supply/BOSTC3075_AugustaBay_Office.jpg",
+								caption:"Work in the Supply Office, Mediterranean Cruise book 1956-57",
+								altText:""
+							},
+							{
+								src:"images/slideshows/operations/supply/BOSTC-1956MedCruiseBook_OfficeWork.jpg",
+								caption:"Office work. Dress blues on left, dungarees on right. Mediterranean Cruise Book 1956",
+								altText:""
+							}
+					],
+					audio : [
+						{
+							id:"SowleMorrell_OPS_Supply",
+							src:"audio/operations/Sowle and Morrell_OPS_Supply.mp3",
+							title:"Arthur &quot;Patty&quot; Morrell, Chief Storekeeper,  1944-1945, and Thurman &quot;Bud&quot; Sowle, Chief Yeoman, 1944-1945",
+							transcript:"<span class='transcription' data-start=0 data-end=3>Interviewer: You were in charge of ordering supplies?</span><span class='transcription' data-start=3 data-end=8.5>Morrell: Exactly.  Yes. As a chief storekeeper, my duties primary were to </span><span class='transcription' data-start=8.5 data-end=15>order supplies, maintenance equipment and whatever to keep the ship running. </span><span class='transcription' data-start=15 data-end=19.5>Many times we had to take on stores.  I can remember one instance</span> <span class='transcription' data-start=19.5 data-end=27>where we took on 44 tons of stores in 44 minutes.  </span><span class='transcription' data-start=27 data-end=32>Commander Scriber, I can still remember his words.  He said, everyone,</span><span class='transcription' data-start=32 data-end=35>officers and men alike, are to load these stores simply because</span><span class='transcription' data-start=35 data-end=40>you all eat and it took us 44 minutes if I remember.  Am I right?  Thats right. </span><span class='transcription' data-start=40 data-end=45>Interviewer: Bud, can you go into your duties as a chief yeoman?</span><span class='transcription' data-start=45 data-end=48>Sowle: Well as the chief yeoman, I was the ship&apos;s secretary.</span><span class='transcription' data-start=48 data-end=54>Maintaining  the records, the ship's service records with all hands on board.</span><span class='transcription' data-start=54 data-end=59>Of course, in those days we went as long as 12 months without even going ashore.</span><span class='transcription' data-start=59 data-end=64>Very little liberty.  But if when we were in port my job and my men</span><span class='transcription' data-start=64 data-end=68>were to issue Liberty cards&mdash;leave papers to the personnel.</span><span class='transcription' data-start=68 data-end=73>Personnel accounting mainly those were the primary duties.</span> <span class='transcription' data-start=73 data-end=80>Morrell: Maybe I can add if you don&apos;t mind,</span><span class='transcription' data-start=80 data-end=82>my duties, along with ordering supplies was paymaster work.</span><span class='transcription' data-start=82 data-end=84>Of course, Thurman and I were very popular people,</span><span class='transcription' data-start=84 data-end=87>You want to go ashore you saw him for liberty cards,</span><span class='transcription' data-start=87 data-end=92>but if wanted money you came to me.</span><span class='transcription' data-start=92 data-end=95>But all in all, I think we ran a very good ship.</span>"
+						},
+						{
+							id:"Johndrow_OPS_Supply",
+							src:"audio/operations/Theodore Johndrow_OPS_Supply.mp3",
+							title:"Theodore &quot;Ted&quot; Johndrow, Yeoman 3<sup>rd</sup> Class, 1958-1960",
+							transcript:"<span class=transcription data-start=.1 data-end=7.2>Johndrow: I worked pretty much in the office.  We all reported to the executive officer and the captain.</span><span class=transcription data-start=7.6 data-end=11> They were the people that we worked for directly pretty much.  </span><span class=transcription data-start=11.5 data-end=14.5> I think when we were out at sea we tried to catch up a lot of the paperwork</span><span class=transcription data-start=14.7 data-end=18.6> and of course when you maybe rendezvoused with a</span><span class=transcription data-start=18.5 data-end=24.9> carrier or something, we might have mail dropped to us while we were at sea so therefore when we got mail we had more work to do.</span><span class=transcription data-start=25.3 data-end=30.5> Or if we were in port, why it seemed as though everybody, when we pulled into port everybody was going on liberty.</span><span class=transcription data-start=30.8 data-end=35.9> But that was when we received our mail so that there was when we had more work to do then we had to do when we were at sea.  </span><span class=transcription data-start=36.4 data-end=42.8> I recall one night, I can&apos;t recall why, we went out for a full power run, but it was in the afternoon that turned rough</span><span class=transcription data-start=42.9 data-end=44.4> before we completed the run.</span><span class=transcription data-start=44.6 data-end=47.7> I remember I was in the office in the evening and things were</span><span class=transcription data-start=47.9 data-end=51.7> flying all over in there and I was trying to type the plan of the day and I remember</span><span class=transcription data-start=52 data-end=58.1> Bernard Conny came in and he looked around and he said you ought to get hazardous duty pay just to work in here you know</span><span class=transcription data-start=58.2 data-end=62.8> and he did not much more than leave and I think a 2 hole punch fell from somewhere</span><span class=transcription data-start=63 data-end=67.2> The ship would take a roll and you&apos;d slide backwards in that little ships office </span><span class=transcription data-start=67.3 data-end=71.3> The chair would go back against the bulkhead and your feet would go up automatically to the desk</span><span class=transcription data-start=71.4 data-end=75.2> to keep the typewriter from falling off or something [chuckles]</span>"
+						},
+					
+					],
+					people : []
+				},
+			]
+		},
+		{
+			id : "combat",
+			introText : "<p>Weaponry such as guns, torpedoes, and depth charges define a warship. Brimming with destructive power, warships like USS <i>Cassin Young</i> are a formidable sight. Nonetheless, all of those weapons are useless without the other divisions supporting the ship and keeping her running. Under normal conditions, the job of a Gunner&apos;s Mate or a Torpedoman&apos;s Mate aboard <i>Cassin Young</i> was to keep the weaponry ready and working at all times. In between maintenance shifts, a minimum number of guns were constantly manned under rotating watches. Everything had to be constantly ready for action at a moment&apos;s notice.</p><p>When the droning clang of the General Quarters alarm sounded across the ship, every man jumped into action. It did not matter if the alarm was a drill or the real thing. Every man had a vital General Quarters station, and matters could quickly become life or death aboard a Destroyer.</p><p>During General Quarters events, <i>Cassin Young</i> served as a rescue ship, as a first line of defence, and on two occasions, a site of the ultimate sacrifice. On this thread, explore the weaponry on board the ship, and the heroic work and sacrifice the ship&apos;s crew performed on board.</p>",
+			title : "Combat, Readiness, Death",
+			threadColor : "AB6E69",
+			subtitle : "Risking&mdash;and giving&mdash;the ultimate sacrifice.",
+			path : [],
+			menuImage : "images/menuItems/combat_WAR.jpg",
+			stops : [
+				{
+					id : "port-quarter",
+					introText : "<p>The main battery aboard USS <i>Cassin Young</i> are the five 5 inch 38 caliber (&quot;5/38&quot;) guns. Gunner&apos;s Mates worked full-time to keep the guns in a constant state of readiness. Effective against ships, land targets, and aircraft, these were powerful all-purpose weapons that had an effective range of over eight miles. When the general quarters alarm sounded, over 125 men&mdash;nearly half the ship&apos;s crew&mdash;were required to unleash the maximum firepower of the guns. Every gun turret had up to nine men inside. Underneath each gun, as many as 16 additional men in powder magazines and ammunition handling rooms worked to quickly hoist powder and projectiles up to each turret. The ship&apos;s crew trained in some form almost daily, whether it was general quarters drills at dawn, firing drills on airborne or surface targets, or, as in the Second World War, full scale battle against an enemy.</p>",
+					title : "The Main Battery: 5/38 Guns",
+					subtitle : "Fantail of the Ship",
+					menuImage : "images/menuItems/5inch_WAR.jpg",
+					marker : {lat: 42.37178999009025, lng: -71.0539875458926},
+					images : [
+						{
+							video:"video/5inch-Powdertrain.mp4",
+							thumbnail:"video/5inch-Powdertrain.jpg",
+							caption:"Video of Park Ranger Eric Hanson Plass &amp; Ship Volunteer Bob Harris explaining the 5&quot;/38 gun system.",
+							altText:""
+						},
+						{
+							src:"images/slideshows/war/5inch/NHHC-S-090.jpg",
+							caption:"5 inch gunnery on sister ship Monssen (DD-798), ca. 1944. Courtesy Navy History and Heritage Command",
+							altText:""
+						},
+						{
+							src:"images/slideshows/war/5inch/BOSTC-1953MedCruiseBook_5inchHatchSeaman.jpg",
+							caption:"Crewmember in dress blues inside a 5&quot;/38 gun mount. USS <i>Cassin Young</i> Cruise Book, 1956-57.",
+							altText:""
+						},
+						{
+							src:"images/slideshows/war/5inch/NARA_NAVAER_259396.jpg",
+							caption:"Crew of USS <i>Buck</i> (DD-420) disposing of spent 5&quot; powder cases and their storage tanks on the main deck. National Archives.",
+							altText:""
+						}
+					],
+					audio : [
+						{
+							id:"Haggerty-GunnerMate",
+							src:"audio/war/5inch/Heath_Haggerty_OPS_gunnery.mp3",
+							title:"Gunner&apos;s Mate Duties - Heath Haggerty, Gunner&apos;s Mate, 1944-1945",
+							transcript:"<span class=transcription data-start=1.3 data-end=4.8> Haggerty: Well, I was a gunner&apos;s mate. What you are actually is a mechanic on the guns.</span><span class=transcription data-start=4.9 data-end=10.6> It was maintenance on the guns and the mounts, the, painting and scraping and cleaning and...</span><span class=transcription data-start=11.4 data-end=15.8> there was plenty to do because you were always fighting the rust you know...and the salt water</span><span class=transcription data-start=16.2 data-end=17.9> it just never ends you know.</span><span class=transcription data-start=18.8 data-end=21.5> You go from one end to the other and then you start it again (chuckles)</span><span class=transcription data-start=23.5 data-end=28.5> during General Quarters... I was a gun captain on a five inch, five inch .38</span><span class=transcription data-start=28.9 data-end=31.6> for about a year then I was a gun captain on a forty millimeter</span><span class=transcription data-start=33.3 data-end=35.6> by that you&apos;ve got a crew and you&apos;re in charge of it,</span><span class=transcription data-start=35.8 data-end=39.6> keep it firing and if something should malfunction, why, you fix it real quick you know.</span><span class=transcription data-start=40.8 data-end=44.5> In one of those five inch guns, why in the mount you&apos;ve got pointer, trainer, </span><span class=transcription data-start=45.2 data-end=51.9> sight setter, fuse setter, first loader, powder man, hot shell man and the gun captain. There&apos;s eight guys in there.</span><span class=transcription data-start=53.0 data-end=58.7> You know, it&apos;s, pretty tight quarters. It wasn&apos;t so much then when I was young, I could go through that thing like a spaghetti you know,</span><span class=transcription data-start=58.8 data-end=61.1> But I go in there now and I (chuckles) </span><span class=transcription data-start=61.8 data-end=63.7> Sometimes you&apos;d spend days in there you know, </span><span class=transcription data-start=64.1 data-end=66.8> We all had a little spot to sit in</span><span class=transcription data-start=68.7 data-end=76.8> But I look at it now it amazes me...it was so crowded you know. &apos;Course we were skinnier then (chuckles) </span>"
+						},
+						{
+							id:"Haggerty-5inch",
+							src:"audio/war/5inch/Heath_Haggerty_WAR_5inch.mp3",
+							title:"Combat in the 5 Inch Gun - Heath Haggerty, Gunner&apos;s Mate, 1944-1945",
+							transcript:"<span class=transcription data-start=1.5 data-end=5.9> the first year I was on a 5 inch, the number three 5 inch, I was the gun captain on that, so...</span><span class=transcription data-start=6.6 data-end=11.3> I&apos;d have the phones on and they&apos;d, tell ya you know, there&apos;s a bogey at so many thousand yards out there</span><span class=transcription data-start=11.6 data-end=14.6> Everything&apos;d be in automatic and we&apos;d just load it as fast as we could.</span><span class=transcription data-start=15.2 data-end=18.7> You can fire every, two and a half, three seconds if everything&apos;s going right.</span><span class=transcription data-start=19.4 data-end=23.2> You know those guns, the range is like, you know eight, nine miles. </span><span class=transcription data-start=23.6 data-end=27.7> and then you&apos;d hear the 40 millimeters open up, well you knew they were getting in closer so</span><span class=transcription data-start=28.3 data-end=34.1> Cuz their range was 4 thousand yards. Then when you hear the 20 millimeters open up, you knew they were close you know.</span><span class=transcription data-start=34.9 data-end=41.8> A lot of time like, shooting at night at an airplane, why, you&apos;d shoot into the dark you know. You never saw, and the radar had him. </span><span class=transcription data-start=43 data-end=48.4> You&apos;d never see him, you&apos;d never hear him, nothing. You just...it&apos;s like punching nails into the blackness, you know. </span><span class=transcription data-start=49.2 data-end=54> But every once in awhile they&apos;d hit one at night, and you&apos;d see this big fireball coming down you know, </span><span class=transcription data-start=55.4 data-end=60.5> &apos;Course when that&apos;d happen somebody&apos;d open the door. When you open the hatches a light would go off you know,and you&apos;d look out, </span><span class=transcription data-start=61.3 data-end=64.7> you&apos;d see this big fireball and everybody&apos;d whistle and yell and scream and, </span><span class=transcription data-start=65.7 data-end=71.5> you know your adrenaline&apos;s pumping so much and you&apos;re all excited, but you&apos;re doing you job you know, you&apos;re doing your job. </span><span class=transcription data-start=73.2 data-end=77.6> I think everybody goes a little bit crazy for a while (chuckles) </span>"
+						},
+					],
+					people : []
+				},
+				{
+					id : "stern",
+					introText : "<p>While radarmen and lookouts kept an eye across the surface of the ocean and out into the sky, sonarmen kept a vigilant watch under the waves using sound to detect underwater activity. The threat of submarines meant that entire ships could be sunk with one well placed hit by a surprise enemy torpedo. One primary role of a destroyer was to hunt and kill a submarine before it claimed ships in a fleet and the lives on board. Once a ship detected a submarine, torpedomen readied depth charges set to explode close to the enemy&apos; depth underwater. Once the ship passed over the suspected location, torpedomen fired an array of charges in patterns designed to maximize the chances of a successful hit. Unless debris floated up from a destroyed submarine, though, it was often impossible to confirm a kill of a submarine.</p><p>During World War II, <i>Cassin Young</i> hunted three suspected underwater contacts, but never confirmed if they successfully destroyed an enemy submarine. In the Cold War, the threats of submarines only grew greater. Though it was peacetime, <i>Cassin Young</i>&apos;s encounters with suspected submarines during the 1950&apos;s proved just as fraught with tension and gut-wrenching uncertainty as it proved during wartime.</p>",
+					title : "Anti-Submarine Warfare: Depth Charges",
+					subtitle : "Racks at the Stern",
+					menuImage : "images/menuItems/ASW_WAR.jpg",
+					marker : {lat: 42.37171677988801, lng: -71.05388080235569},
+					images : [
+						{
+							src:"images/slideshows/war/ASW/Jack_Surre-PICT0097.jpg",
+							caption:"Spray from the shallow explosion of a depth charge off the fantail of USS <i>Cassin Young</i>. Courtesy Jack Surre.",
+							altText:""
+						},						{
+							src:"images/slideshows/war/ASW/Jack_Surre-PICT0051.jpg",
+							caption:"Crewmen readying depth charges on the fantail of USS <i>Cassin Young</i>. Courtesy Jack Surre.",
+							altText:""
+						},						{
+							src:"images/slideshows/war/ASW/Jack_Surre-PICT0098.jpg",
+							caption:"Crewmember wearing earphones drenched from the splash of a depth charge blast. Courtesy Jack Surre.",
+							altText:""
+						},
+						],
+					audio : [
+
+					],
+					people : []
+				},
+				{
+					id : "midships_port_01-lvl",
+					introText : "<p>Though versatile and powerful, the 5 inch guns aboard <i>Cassin Young</i> had its shortcomings. Against large armored ships, the 5 inch shells had a remote chance of penetrating the hull of a battleship. Against squadrons of swarming aircraft, the 5 inch guns alone could not provide the sheer amount of rapid firepower needed to throw up walls of shrapnel into the sky. Secondary weapons aboard destroyers like <i>Cassin Young</i> aimed to make ships the most effective against the threats they may encounter, but each added system came at the cost of space, weight, and demand upon the crew.</p><p>As the naval battlefield changed, the types and layouts of secondary weaponry changed aboard ship. The 20mm anti-aircraft guns, for example, were largely obsolete by the close of the Second World War. <i>Cassin Young</i> originally had seven, but by the 1950&apos;s she had none. Today, only one 20 mm gun remains on the fantail of the ship as an example. Even the 40mm gun placement went from five separate &quot;twin&quot; mounts to two &quot;quad&quot; mounts and one &quot;twin&quot; mounts after the end of World War II. By the time of her last cruise in the late 1950&apos;s, the 40 mm guns were removed entirely because they were no longer effective against faster jet aircraft. These 40 mm mounts have since been reinstalled.</p><p>To enhance capabilites against ships, <i>Fletcher</i> class destroyers like <i>Cassin Young</i> originally carried two 5-torpedo mounts during World War II. Increasingly, torpedoes on destroyers were seen as a &quot;last resort&quot; when destroyers found themselves outgunned and outnumbered. <i>Cassin Young</i> was fortunate to never need to fire her torpedoes in a desperate battle against enemy cruisers or battleships. Reflective of the need to match the capabilities of the ship with the enemies she was likely to encounter, half of <i>Cassin Young</i>&apos;s torpedoes on board were removed to make room for the more important &quot;quad&quot; 40mm anti-aircraft guns.</p>",
+					title : "Secondary Weapons: 40mm Guns, 20 mm Guns, &amp; Torpedoes",
+					subtitle : "Port Midships, Above on 01 Level",
+					menuImage : "images/menuItems/AntiAircraft_WAR.jpg",
+					marker : {lat: 42.372057503066145, lng: -71.05435769073665},
+					images : [
+						{
+							video:"video/40mm_Bob-Harris.mp4",
+							thumbnail:"video/40mm_Bob-Harris.jpg",
+							caption:"Video of Ship Volunteer Bob Harris explaining the 40 mm gun mounts.",
+							altText:""
+						},
+						{
+							src:"images/slideshows/war/40mm/80-G-K-15553.jpg",
+							caption:"Original twin 40 mm configuration amidships on the port (left) side of an unidentified <i>Fletcher</i> class sister ship of <i>Cassin Young</i>, ca. 1943. Gun director platform is jsut above. Courtesy National Archives",
+							altText:""
+						},
+						{
+							src:"images/slideshows/war/40mm/BOSTC-1954WorldCruiseBook_TorpedoPractice.jpg",
+							caption:"Torpedo practice and returning the &quot;fish&quot; to the torpedo tube. 1954 World Cruise Book",
+							altText:""
+						},
+						],
+					audio : [
+						{
+							id:"Swartz_Torpedoes",
+							src:"audio/war/secondary_weapons/Fred_Swartz_OPS_Torpedoman.mp3",
+							title:"Operating &amp; Maintaining the Torpedoes - Fred Swartz, Torpedoman 3<sup>rd</sup> Class, 1943-1945",
+							transcript:""
+						},
+					],
+					people : []
+				},
+				{
+					id : "princeton",
+					introText:"<p>There are many moments in the life of the ship which stand out in memory of the crew. Some are challenging, and others are horrific. One such moment came when the aircraft carrier USS <i>Princeton</i> came under attack during the Battle of Leyte Gulf in October, 1944.</p><p>On October 24, <i>Princeton</i> took a direct hit from a Japanese bomb. <i>Cassin Young</i> and others attempted to assist her by fighting the fires, but when fire spread and caused an explosion, <i>Princeton</i>&apos;s crew was ordered to abandon ship. Crew members aboard <i>Cassin Young</i> sprang into action. Men used small firearms and spent shell casings to fight off sharks while the ship&apos;s whaleboat crew rescued up as many men as possible. All told, 120 men from <i>Princeton</i> were saved by <i>Cassin Young</i>.</p>",
+					title : "Leave No One Behind: USS <i>Princeton</i> Rescue",
+					subtitle : "Midships, Starboard side",
+					menuImage : "images/menuItems/Princeton_WAR.jpg",
+					marker : {lat: 42.3721942314805, lng: -71.05433623306453},
+					images : [
+							{
+								src:"images/slideshows/war/princeton/NARA_NAVAER_281661-5.jpg",
+								caption:"Executive Officer W.H. Snyder shooting at sharks while survivors swim to safety. National Archives.",
+								altText:""
+							},
+							{
+								src:"images/slideshows/war/princeton/NARA_NAVAER_281665-6.jpg",
+								caption:"<i>Princeton</i> survivor hoisted to safety aboard <i>Cassin Young</i> out of the oil-covered water. National Archives.",
+								altText:""
+							},
+							{
+								src:"images/slideshows/war/princeton/NARA_NAVAER_281662-4.jpg",
+								caption:"<i>Cassin Young</i>&apos;s whale boat with Al Mellville and James Marrs on board returning with <i>Princeton</i> survivors. National Archives.",
+								altText:""
+							},
+							{
+								src:"images/slideshows/war/princeton/NARA_NAVAER_281669-4.jpg",
+								caption:"Survivors of <i>Princeton</i> float in a rubber life raft towards <i>Cassin Young</i> as <i>Princeton</i> burns in background. National Archives.",
+								altText:""
+							},
+							{
+								src:"images/slideshows/war/princeton/NARA_NAVAER_281663-5.jpg",
+								caption:"<i>Princeton</i> exploding, as seen from <i>Cassin Young</i>. National Archives.",
+								altText:""
+							},
+							{
+								src:"images/slideshows/war/princeton/NARA_NAVAER_284385.jpg",
+								caption:"Transferring survivors from <i>Cassin Young</i> to USS <i>Lexington</i> on October 26, 1944. National Archives.",
+								altText:""
+							},
+					],
+					audio : [
+							{
+							id:"Melville_Byrum_Princeton",
+							src:"audio/war/Princeton/Byrum-Melville_WAR_Princeton.mp3",
+							title:"Rescuing the <i>Princeton</i> Sailors - Al Melville, Coxwain, 1943-1945 &amp; Peter Byrum, Boatswain&apos;s Mate, 1963-1945",
+							transcript:"<span class=transcription data-start=.8 data-end=4.4> Melville: The <i>Princeton</i> was struck with a bomb and we were assisting them</span><span class=transcription data-start=4.5 data-end=11.5> Byrum: The way this happened, um, the <i>Cassin Young</i> went alongside of the <i>Princeton</i> to fight fires.</span><span class=transcription data-start=11.9 data-end=17.6> When we got alongside, our freeboard wasn&apos;t high enough to fight any fires efficiently, </span><span class=transcription data-start=17.8 data-end=23.4> so the, heavy cruiser <i>Birmingham</i> went alongside to fight the fires. </span><span class=transcription data-start=23.6 data-end=26.6> Melville: And at that time, Peter called me away from my station. </span><span class=transcription data-start=26.8 data-end=32.3> Byrum: The commanding officer on the <i>Cassin Young</i> put a...rescue boat in the water</span><span class=transcription data-start=33 data-end=39.1> because there was quite a number of men in the water, and there were, a lot of sharks in the area. </span><span class=transcription data-start=39.2 data-end=44.7> Melville: I can remember now, Peter says ‘Albert, go take this boat! Go down there for emergency boat duty.&apos;</span><span class=transcription data-start=45.1 data-end=50.4> So I went down there and, he says ‘now don&apos;t forget you&apos;re gonna need a signalman aboard!&apos;</span><span class=transcription data-start=50.6 data-end=54.7 > and I got up there and they says ‘who do you want for a boat crew?&apos; and I said ‘I&apos;ll take Marras and Ansel.&apos;</span><span class=transcription data-start=55.2 data-end=56.8> Give me any engineer.</span><span class=transcription data-start=57.5 data-end=64.7> Byrum: As a matter of fact they issued rifles and handguns to the repair party to protect these men that were in the water. </span><span class=transcription data-start=65.1 data-end=68.9> Melville was out there picking these men up with the boat crew.</span><span class=transcription data-start=69.1 data-end=74.5> One of the famous rescue scenes during the war was</span><span class=transcription data-start=74.9 data-end=79.> Albert Melville in this little whale boat, and they have a picture out there of him</span><span class=transcription data-start=80.1 data-end=83.9> and I have one too, I could go out and get it, then bring it in here and show it to you</span><span class=transcription data-start=84 data-end=86.2> Interviewer: Ok, why don&apos;t you do that.</span>"
+						},
+					],
+					people : []
+				},
+				{
+					id : "kamikaze",
+					introText:"<p>After a year at sea with the Pacific Fleet, the <i>Cassin Young</i> only came deeper into harm&apos;s way. At Okinawa&mdash;the final battle of the Pacific Theater&mdash;Destroyermen had to make a dangerous last stand against deadly Kamikaze attacks. On picket duty surrounding the island, the destroyers were a prime target for the suicide plane attacks.</p><p>On the 12th of April, 1945, a plane just missed the <i>Cassin Young</i>, striking her mast and exploding just off the ship. Many were wounded, and one man was killed in the action. After repairs, the crew returned to the same raging battle of Okinawa. At around 2 a.m. on the 30th of July, 1945, radar contact picked up a lone aircraft. Men scrambled to general quarters and opened fire in the dark as some confusion ensued over possible friendly aircraft in the area. Then a lone biplane swept over, turned, and struck the middle of <i>Cassin Young</i> on the starboard side. The explosion destroyed the whaleboat and ripped through the surrounding bulkheads and decks. Fires began all around the area. All told, twenty men lost their life, one was missing, and 47 men were wounded. Nonetheless, the determined crew put out the fires and restored power within an hour, and the ship survived the attack.",
+					title : "12 April &amp; 30 July, 1945: The Ultimate Sacrifice",
+					subtitle : "Memorial Plaque, Starboard Side",
+					menuImage : "images/menuItems/Kamikaze_WAR.jpg",
+					marker : {lat: 42.37226754949315, lng: -71.05444352142513},
+					images : [
+						{
+							src:"images/slideshows/war/kamikaze/NARA_NAVAER_330115.jpg",
+							caption:"Damage to the ship&apos;s mast following the 12 April hit. National Archives.",
+							altText:""
+						},
+						{
+							src:"images/slideshows/war/kamikaze/July30Damage.jpg",
+							caption:"Photograph showing the damage to the ship following the hit on 30 July, 1945.",
+							altText:""
+						},
+					],
+					audio : [
+						{
+							id:"Haggerty_12April",
+							src:"audio/war/Kamikaze/Heath_Haggerty_WAR_12April.mp3",
+							title:"The First Kamikaze Hit - Heath Haggerty, Gunner&apos;s Mate, 1944-1945",
+							transcript:"<span class=transcription data-start=.8 data-end=5.1> These guns, they have what they call a firing cut-out cam on them. </span><span class=transcription data-start=5.2 data-end=9.8> In other words you&apos;ve got your 5 inch guns and then they&apos;ll train out to the side, well that barrel sticks out.</span><span class=transcription data-start=10.4 data-end=14.5> Well you&apos;ve got a 40 millimeter right, right here. Well if that gun trains out, </span><span class=transcription data-start=15 data-end=18.4> it&apos;s possible to fire your 40 millimeters and hit your own gun see</span><span class=transcription data-start=19.2 data-end=22.9> and that would, you know, that&apos;d be a catastrophe. So...</span><span class=transcription data-start=23.7 data-end=27.7> Everything would be going good, the gun would be firing good, and then it&apos;d quit firing, well you know...</span><span class=transcription data-start=28.5 data-end=35.8> not pandemonium, but you&apos;re looking and checking, and opening the breach and, you know, it&apos;s panic (chuckles)</span><span class=transcription data-start=36.3 data-end=40.2> You know one time there was a plane coming right, you know right down our throat and...</span><span class=transcription data-start=40.6 data-end=45.1> We&apos;re shooting at it and all of a sudden my gun quit firing. Well what it was the cut off cam was working. </span><span class=transcription data-start=45.7 data-end=50.6> these guys screamed you know and, pointed you know, this guy was right there, he was coming right at us</span><span class=transcription data-start=54.4 data-end=56.3> So you know, I knew we were all dead you know, </span><span class=transcription data-start=56.8 data-end=62.5> and these guys all jumped down off the gun and, they went around behind the bridge it was only, ten steps you know</span><span class=transcription data-start=65.2 data-end=69.2> So I was the gun caption, I had the phones on and I figure, well, you know, I gotta stay here. </span><span class=transcription data-start=72.1 data-end=75.8> So I stood there and then ooooo! You know,  I looked right at him, and then the last, </span><span class=transcription data-start=75.9 data-end=80> half a second I couldn&apos;t you know, I shut my eyes and tried to crawl into my helmet</span><span class=transcription data-start=82.6 data-end=88> Well these guys went behind the bridge...there was a big explosion, I opened my eyes you know, and...</span><span class=transcription data-start=88.6 data-end=89.9> nothing, you know, I&apos;m fine</span><span class=transcription data-start=91.4 data-end=94.1> What he did, he pulled up a little and he hit the top of the mast.</span><span class=transcription data-start=94.4 data-end=97.2> Just missed the main battery director by inches</span><span class=transcription data-start=97.3 data-end=100.7> But he blew up on contact, oh it was usually a hell of a fire you know,</span><span class=transcription data-start=101.1 data-end=106.4> Even if he didn&apos;t have a bomb in him, there&apos;s a pretty good blast from the gasoline you know. There&apos;s a fireball. </span><span class=transcription data-start=107.4 data-end=110.2> Anyway, these guys were underneath it when it blew up, you know and every one of them got...</span><span class=transcription data-start=110.3 data-end=113.1> They didn&apos;t get killed, but every one of them got messed up bad you know</span><span class=transcription data-start=115 data-end=119> And I just happened to, I happened to stay there (chuckles)</span><span class=transcription data-start=119.9 data-end=127.8> And...didn&apos;t have a scratch, nothing you know. And over half our crew, gun crew was gone you know.</span>"
+						},
+					],
+					people : []
+				},
+				{
+					id : "aftermath",
+					introText:"<p>The first man to die on <i>Cassin Young</i> received a burial at sea in a somber ceremony in April, 1945. Those who died in action following the second Kamikaze were buried in a battle-front cemetery. In August, the men who were wounded received Purple Hearts in a ceremony on the Bow of <i>Cassin Young</i>. The ship received orders to finally return home to San Pedro, California to repair all the critical damage. On her voyage back, the crew received news that the war was over at last. Those who survived would all finally go home. <i>Cassin Young</i>&apos;s service, however, would continue for another fifteen years in a changing modern era.</p>",
+					title : "Honoring Their Service",
+					subtitle : "Bow of the Ship",
+					menuImage : "images/menuItems/Aftermath_WAR.jpg",
+					marker : {lat: 42.37248948457733, lng: -71.05478416197002},
+					images : [
+						{
+							video:"video/USSCY_Purple_Heart_and_Damage.mp4",
+							thumbnail:"video/428-NPC_14374.jpg",
+							caption:"Archival footage of the Purple Heart ceremony, mascot dog Bogey, and damage to the ship.",
+							altText:""
+						},
+						{
+							src:"images/slideshows/war/bow/BOSTC_Box1126-Folder7_Burial.jpg",
+							caption:"Burial service for those killed in action aboard <i>Cassin Young</i>, ca. August 1945.",
+							altText:""
+						},
+						{
+							src:"images/slideshows/war/bow/BOSTC1666_Box1126-Folder10_PurpleHeart.jpg",
+							caption:"A snapshot from a destroyer tender showing the Purple Heart ceremony aboard <i>Cassin Young</i>, August,1945.",
+							altText:""
+						},
+					],
+					audio : [],
+					people : []
+				}
+			]
+		},
+		{
+			id : "modernizations",
+			introText : "",
+			title : "Modernizing the Fleet",
+			subtitle : "The Charlestown Navy Yard &amp; USS <i>Cassin Young</i>, 1951-1960",
+			path : [],
+			menuImage : "images/menuItems/modernization_repairs.jpg",
+			stops : []
+		},
+		/*
+		{
+			id : "perservation",
+			introText : "",
+			title : "Preserving the Memory",
+			subtitle : "The Charlestown Navy Yard &amp; USS <i>Cassin Young</i> Today",
+			path : [],
+			menuImage : "images/menuItems/preserving_ship.jpg",
+			stops : []
+		}
+		*/
+	]
+}
