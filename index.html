@@ -18,12 +18,6 @@
 <link rel="apple-touch-icon" sizes="152x152" href="icons/iOS-iPad-152.png">
 <link rel="apple-touch-icon" sizes="167x167" href="icons/iOS-iPadPro-167.png">
 <link rel="apple-touch-icon" sizes="180x180" href="icons/iOS-iPhone6p-180.png">
-
-<script type="text/javascript" src="jquery-1.10.2.min.js"></script>
-<script type="text/javascript" src="data.json"></script>
-<script type="text/javascript" src="jquery.mobile-1.4.5.min.js"></script>
-<script type="text/javascript" src="npmap.min.js"></script>
-<script type="text/javascript" src="index.js"></script>
 </head>
 <body onload='$("#loadingScreen").fadeOut("slow",function() {$("#appLoaded").fadeIn("slow");});'>
 
@@ -55,6 +49,21 @@
 		</div>
 <div style="display:none;" id="imageCache"></div>
 <script>
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+
+  ga('create', 'UA-83465003-1', 'auto');
+  ga('send', 'pageview');
+
+</script>
+<script type="text/javascript" src="jquery-1.10.2.min.js"></script>
+<script type="text/javascript" src="data.json"></script>
+<script type="text/javascript" src="jquery.mobile-1.4.5.min.js"></script>
+<script type="text/javascript" src="npmap.min.js"></script>
+<script type="text/javascript" src="index.js"></script>
+<script>
 
 $("#MobileNextBtn").on("click", function(event){
 	event.preventDefault();
@@ -67,8 +76,6 @@ $("#MobilePrevBtn").on("click", function(event){
 	$("body").pagecontainer("change",event.currentTarget.href,{changeHash:false});
 	window.history.replaceState({},'',event.currentTarget.href)
 });
-
-
 
 </script>
 </body>

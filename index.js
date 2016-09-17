@@ -68,6 +68,12 @@ function audioClips(varName) {
 						this.clips[id].play();
 						this.playing = true;
 						this.currentClip = id;
+							ga("send",{
+								hitType: 'event',
+								eventCategory: 'AudioClip',
+								eventAction: 'play',
+								eventLabel: id
+							});
 					}
 					else
 					{
@@ -654,6 +660,10 @@ $(document).on( "pagecontainerchange", function( event, ui ) {
 */
 	
 	reJiggerSlideshow();
+	
+	//update set page and send hit in analytics
+	ga('set', 'page', divID);
+	ga('send', 'pageview');
 } );
 /*
 function toggleNavBar()
@@ -1047,6 +1057,12 @@ function playVideo(id) {
 	$("#" + id).removeClass("videoOut");
 	$("#" + id).addClass("videoIn");
 	$("#" + id + " video")[0].play();//automatically play.
+	ga("send",{
+		hitType: 'event',
+		eventCategory: 'Videos',
+		eventAction: 'play',
+		eventLabel: id
+	});
 }
 
 function closeVideo(id) {
